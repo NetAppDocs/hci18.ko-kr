@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: docs/task_sf_upgrade_all_vsphere.html 
+summary: SolidFire 스토리지 시스템용 VMware 구성 요소를 업그레이드하고 vCenter 플러그인을 다시 설치하는 추가 단계를 수행할 수 있습니다. 
+keywords: netapp, solidfire, vsphere components, upgrade, vCenter, ESXi 
+---
+= vCenter Server용 Element 플러그인을 사용하여 NetApp SolidFire 스토리지 시스템용 vSphere 구성요소를 업그레이드하십시오
+:allow-uri-read: 
+
+
+[role="lead"]
+SolidFire Element 스토리지 설치의 VMware vSphere 구성 요소를 업그레이드할 때 vCenter Server용 Element 플러그인이 설치된 시스템에 대해 수행해야 하는 몇 가지 추가 단계가 있습니다.
+
+.단계
+. vCSA 업그레이드의 경우 https://docs.netapp.com/us-en/vcp/vcp_task_qossioc.html#clear-qossioc-settings["지우기"^] 플러그인의 QoSSIOC 설정(* NetApp Element 구성 > QoSSIOC 설정 *) 프로세스가 완료되면 * QoSSIOC 상태 * 필드가 `Not Configured` 표시됩니다.
+. vCSA 및 Windows 업그레이드의 경우 https://docs.netapp.com/us-en/vcp/task_vcp_unregister.html["등록 취소"^] 등록 유틸리티를 사용하여 연결된 vCenter Server의 플러그인입니다.
+. https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vcenter.upgrade.doc/GUID-7AFB6672-0B0B-4902-B254-EE6AE81993B2.html["vCenter Server, ESXi, VM 및 기타 VMware 구성 요소를 비롯한 vSphere를 업그레이드합니다"^]..
+. https://docs.netapp.com/us-en/vcp/vcp_task_getstarted.html#register-the-plug-in-with-vcenter["등록"^] vCenter를 사용하는 vCenter Server용 Element 플러그인
+. https://docs.netapp.com/us-en/vcp/vcp_task_getstarted.html#add-storage-clusters-for-use-with-the-plug-in["클러스터 추가"^] 플러그인을 사용합니다.
+. https://docs.netapp.com/us-en/vcp/vcp_task_getstarted.html#configure-qossioc-settings-using-the-plug-in["QoSSIOC 설정을 구성합니다"^] 플러그인을 사용합니다.
+. https://docs.netapp.com/us-en/vcp/vcp_task_qossioc.html#enabling-qossioc-automation-on-datastores["QoSSIOC를 활성화합니다"^] 플러그인에서 제어하는 모든 데이터 저장소
+
+
+[discrete]
+== 자세한 내용을 확인하십시오
+
+* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI 리소스 페이지 를 참조하십시오"^]
+

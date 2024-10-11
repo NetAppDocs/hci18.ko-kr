@@ -1,0 +1,128 @@
+---
+sidebar: sidebar 
+permalink: docs/rn_whatsnew.html 
+summary: 이 NetApp HCI 버전의 새로운 기능에 대해 알아보십시오. 
+keywords: netapp, hci, element, new, whatsnew 
+---
+= NetApp HCI의 새로운 기능
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp은 새로운 기능, 개선 사항 및 버그 수정을 제공하기 위해 NetApp HCI을 정기적으로 업데이트합니다. NetApp HCI 1.8P1에는 스토리지 클러스터용 Element 12.2가 포함되어 있습니다.
+
+* 이 <<NetApp HCI 1.8P1를 참조하십시오>>섹션에서는 NetApp HCI 버전 1.8P1의 새로운 기능과 업데이트에 대해 설명합니다.
+* 이 <<요소 12.2>>섹션에서는 NetApp Element 12.2의 새로운 기능 및 업데이트에 대해 설명합니다.
+
+
+
+
+== NetApp HCI 1.8P1를 참조하십시오
+
+NetApp HCI 1.8P1에는 보안 및 안정성 향상이 포함되어 있습니다.
+
+
+
+=== NetApp HCI 설명서 기능 향상
+
+이제 탐색하기 쉬운 형식으로 NetApp HCI 업그레이드, 확장, 모니터링 및 개념 정보에 액세스할 수 link:index.html["여기"^]있습니다.
+
+
+
+=== vCenter Server 4.5 가용성을 위한 NetApp Element 플러그인
+
+vCenter Server 4.5용 NetApp Element 플러그인은 관리 노드 12.2 및 NetApp HCI 1.8P1 릴리즈 외부에서 사용할 수 있습니다. 플러그인을 업그레이드하려면 설명서의 지침을 link:concept_hci_upgrade_overview.html["NetApp HCI 업그레이드"]따르십시오.
+
+
+
+=== NetApp 하이브리드 클라우드 제어의 개선 사항
+
+버전 1.8P1에 대해 NetApp 하이브리드 클라우드 제어가 향상되었습니다. https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["자세한 정보"^]..
+
+
+
+== 요소 12.2
+
+NetApp HCI 1.8P1에는 스토리지 클러스터용 Element 12.2가 포함되어 있습니다. Element 12.2에는 SolidFire 엔터프라이즈 SDS, 저장 시 소프트웨어 암호화, 유지 관리 모드, 향상된 볼륨 액세스 보안, UI에 대한 FQDN(정규화된 도메인 이름) 액세스, 스토리지 노드 펌웨어 업데이트 및 보안 업데이트가 도입되었습니다.
+
+
+
+=== SolidFire 엔터프라이즈 SDS
+
+Element 12.2에는 SolidFire ESDS(Enterprise SDS)가 도입되었습니다. SolidFire eSDS는 SolidFire eSDS의 참조 구성을 충족하는 선택한 하드웨어에 SolidFire 스케일 아웃 기술 및 NetApp Element 소프트웨어 데이터 서비스의 이점을 제공합니다. http://docs.netapp.com/sfe-122/index.jsp?topic=%2Fcom.netapp.doc.sfe-sds-ig%2FGUID-F1BDD19F-AF33-4CDE-B67F-C5E17D4E6DE9.html["자세한 정보"^]..
+
+다음은 SolidFire eSDS와 관련된 새로운 요소 API 메서드입니다. 자세한 내용은 다음과 (http://docs.netapp.com/sfe-122/index.jsp?topic=%2Fcom.netapp.doc.sfe-sds-ug%2FGUID-4D335B61-6B68-4B81-AD6E-BCA1E7ABACD5.html["SolidFire eSDS에 대한 Element 12.2 API 정보"^]같습니다.
+
+* `GetLicenseKey`
+* `SetLicenseKey`
+
+
+
+
+=== 유휴 데이터 소프트웨어 암호화
+
+Element 12.2에는 스토리지 클러스터를 생성할 때 사용할 수 있는 유휴 시 소프트웨어 암호화가 도입되었습니다(SolidFire Enterprise SDS 스토리지 클러스터를 생성할 때 기본적으로 활성화됨). 이 기능은 스토리지 노드의 SSD에 저장된 모든 데이터를 암호화하므로 클라이언트 IO에 미치는 성능이 2% 정도로 매우 적습니다.
+
+다음은 유휴 시 소프트웨어 암호화와 관련된 Element API 메서드(에서 http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/home.html["Element API 참조 가이드"^] 자세한 정보를 볼 수 있음)입니다.
+
+* `CreateCluster`
+
+
+
+
+=== 유지보수 모드
+
+Element 12.2에는 모든 데이터의 전체 동기화를 방지하면서 소프트웨어 업그레이드 또는 호스트 복구와 같은 유지 관리를 위해 스토리지 노드를 오프라인으로 전환할 수 있는 유지보수 모드가 도입되었습니다. 하나 이상의 노드에 대해 유지 관리가 필요한 경우 시작하기 전에 해당 노드에 대한 유지보수 모드를 활성화하여 스토리지 클러스터의 나머지 부분에 대한 I/O 영향을 최소화할 수 있습니다. 유지보수 모드는 어플라이언스 노드와 SolidFire eSDS 노드 모두에서 사용할 수 있습니다.
+
+
+
+=== 볼륨 액세스 보안 강화
+
+이제 VLAN(가상 네트워크) 연결을 기반으로 특정 이니시에이터에 대한 볼륨 액세스를 제한할 수 있습니다. 새 이니시에이터 또는 기존 이니시에이터를 하나 이상의 가상 네트워크에 연결하여 해당 이니시에이터를 해당 가상 네트워크를 통해 액세스할 수 있는 iSCSI 타겟으로 제한할 수 있습니다.
+
+다음은 이러한 보안 개선과 관련하여 업데이트된 Element API 메서드입니다( http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/home.html["Element API 참조 가이드"^]자세한 내용 참조).
+
+* `CreateInitiators`
+* `ModifyInitiators`
+* `AddAccount`
+* `ModifyAccount`
+
+
+
+
+=== UI에 대한 FQDN(정규화된 도메인 이름) 액세스
+
+Element 12.2는 FQDN을 사용하여 클러스터 웹 인터페이스 액세스를 지원합니다. Element 12.2 스토리지 클러스터에서 FQDN을 사용하여 Element 웹 UI, 노드별 UI 또는 관리 노드 UI와 같은 웹 사용자 인터페이스에 액세스하는 경우 먼저 스토리지 클러스터 설정을 추가하여 클러스터에서 사용되는 FQDN을 식별해야 합니다. 이 설정을 사용하면 클러스터가 로그인 세션을 올바르게 리디렉션할 수 있으며 다중 요소 인증을 위해 키 관리자 및 ID 공급자와 같은 외부 서비스와의 통합을 더욱 원활하게 수행할 수 있습니다. 이 기능을 사용하려면 관리 서비스 버전 2.15 이상이 필요합니다. link:task_nde_access_ui_fqdn.html["자세한 정보"]..
+
+
+
+=== 스토리지 노드 펌웨어 업데이트
+
+Element 12.2에는 스토리지 노드의 펌웨어 업데이트가 포함됩니다. link:rn_relatedrn.html["자세한 정보"]..
+
+
+
+=== 보안 강화
+
+Element 12.2는 스토리지 노드 및 관리 노드에 대한 보안 취약점을 해결합니다. http://security.netapp.com/["자세한 정보"^] 이 보안 개선 사항에 대해 알아보십시오.
+
+
+
+=== 장애가 발생한 드라이브에 대한 새로운 SMART 경고
+
+이제 Element 12.2는 드라이브의 SMART 상태 데이터를 사용하여 SolidFire 어플라이언스 드라이브에 대해 정기적인 상태 점검을 수행합니다. SMART 상태 확인에 실패한 드라이브가 거의 실패할 수 있습니다. 드라이브가 SMART 상태 검사에 실패하면 새로운 Critical Severity cluster fault가 나타납니다. `Drive with serial: <serial number> in slot: <node slot><drive slot> has failed the SMART overall health check. To resolve this fault, replace the drive`
+
+[discrete]
+== 자세한 내용을 확인하십시오
+
+* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["NetApp 하이브리드 클라우드 제어 및 관리 서비스 릴리즈 노트"^]
+* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
+* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
+* http://docs.netapp.com/sfe-122/index.jsp["SolidFire 및 Element 소프트웨어 설명서 센터"^]
+* link:firmware_driver_versions.html["NetApp HCI 스토리지 노드의 NetApp HCI 및 펌웨어 버전에 대해 지원되는 펌웨어 및 ESXi 드라이버 버전"]
+
