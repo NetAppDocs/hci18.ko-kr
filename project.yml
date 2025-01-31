@@ -364,4 +364,4 @@ sidebar:
     - title: 2노드 클러스터의 스토리지 노드를 교체합니다
       url: "/docs/task_hci_2noderepl.html"
   - title: 법적 고지
-    url: "/docs/reference_notices_hci.html"
+    url: "/legal-notices.html"
