@@ -11,7 +11,7 @@ translate: false
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -51,26 +51,26 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.
 
-* link:../media/compute_firmware_bundle_2.146_notices.pdf["Compute Firmware Bundle 2.146에 대한 고지 사항"^]
-* link:../media/storage_firmware_bundle_2.146_notices.pdf["스토리지 펌웨어 번들 2.146에 대한 고지 사항"^]
-* link:../media/storage_firmware_bundle_2.99_notices.pdf["스토리지 펌웨어 번들 2.99.2에 대한 고지 사항"^]
-* link:../media/compute_firmware_bundle_2.76_notices.pdf["Compute Firmware Bundle 2.76에 대한 고지 사항"^]
-* link:../media/storage_firmware_bundle_2.76_notices.pdf["스토리지 펌웨어 번들 2.76에 대한 고지 사항"^]
-* link:../media/compute_firmware_bundle_2.27_notices.pdf["Compute Firmware Bundle 2.27에 대한 고지 사항"^]
-* link:../media/storage_firmware_bundle_2.27_notices.pdf["스토리지 펌웨어 번들 2.27에 대한 고지 사항"^]
-* link:../media/compute_iso_notice.pdf["컴퓨팅 펌웨어 ISO에 대한 고지 사항"^]
-* link:../media/H610S_BMC_notice.pdf["H610S BMC에 대한 고지 사항"^]
-* link:../media/mgmt_svcs_2.23_notice.pdf["관리 서비스 2.23.64 알림(VMware vCenter Server 5.1.12용 NetApp Element 플러그인)"^]
-* link:../media/mgmt_svcs_2.22_notice.pdf["관리 서비스 2.22.7 알림(VMware vCenter Server 5.0.37용 NetApp Element 플러그인)"^]
-* link:../media/mgmt_svcs_2.21_notice.pdf["관리 서비스 2.21.61 공지(vCenter Server 4.10.12용 NetApp Element 플러그인)"^]
-* link:../media/2.20_notice.pdf["관리 서비스 2.20.69 공지(vCenter Server 4.9.14용 NetApp Element 플러그인)"^]
-* link:../media/2.19.48_notice.pdf["관리 서비스 2.19.48 공지(vCenter Server 4.8.34용 NetApp Element 플러그인)"^]
-* link:../media/2.18.91_notice.pdf["관리 서비스 2.18.91 공지(vCenter Server 4.7.10용 NetApp Element 플러그인)"^]
-* link:../media/2.17.56-notice.pdf["관리 서비스 2.17.56 공지(vCenter Server 4.6.32용 NetApp Element 플러그인)"^]
-* link:../media/2.17_notice.pdf["관리 서비스 공지 2.17(vCenter Server 4.6.29용 NetApp Element 플러그인)"^]
-* link:../media/2.16_notice.pdf["관리 서비스 공지 2.16(vCenter Server 4.6.29용 NetApp Element 플러그인)"^]
-* link:../media/mgmt_svcs_2.14_notice.pdf["관리 서비스 공지 2.14(vCenter Server 4.5.42용 NetApp Element 플러그인)"^]
-* link:../media/2.13_notice.pdf["관리 서비스 공지 2.13(vCenter Server 4.5.42용 NetApp Element 플러그인)"^]
-* link:../media/mgmt_svcs2.11_notice.pdf["관리 서비스 공지 2.11(vCenter Server 4.4.72용 NetApp Element 플러그인)"^]
+* link:./media/compute_firmware_bundle_2.146_notices.pdf["Compute Firmware Bundle 2.146에 대한 고지 사항"^]
+* link:./media/storage_firmware_bundle_2.146_notices.pdf["스토리지 펌웨어 번들 2.146에 대한 고지 사항"^]
+* link:./media/storage_firmware_bundle_2.99_notices.pdf["스토리지 펌웨어 번들 2.99.2에 대한 고지 사항"^]
+* link:./media/compute_firmware_bundle_2.76_notices.pdf["Compute Firmware Bundle 2.76에 대한 고지 사항"^]
+* link:./media/storage_firmware_bundle_2.76_notices.pdf["스토리지 펌웨어 번들 2.76에 대한 고지 사항"^]
+* link:./media/compute_firmware_bundle_2.27_notices.pdf["Compute Firmware Bundle 2.27에 대한 고지 사항"^]
+* link:./media/storage_firmware_bundle_2.27_notices.pdf["스토리지 펌웨어 번들 2.27에 대한 고지 사항"^]
+* link:./media/compute_iso_notice.pdf["컴퓨팅 펌웨어 ISO에 대한 고지 사항"^]
+* link:./media/H610S_BMC_notice.pdf["H610S BMC에 대한 고지 사항"^]
+* link:./media/mgmt_svcs_2.23_notice.pdf["관리 서비스 2.23.64 알림(VMware vCenter Server 5.1.12용 NetApp Element 플러그인)"^]
+* link:./media/mgmt_svcs_2.22_notice.pdf["관리 서비스 2.22.7 알림(VMware vCenter Server 5.0.37용 NetApp Element 플러그인)"^]
+* link:./media/mgmt_svcs_2.21_notice.pdf["관리 서비스 2.21.61 공지(vCenter Server 4.10.12용 NetApp Element 플러그인)"^]
+* link:./media/2.20_notice.pdf["관리 서비스 2.20.69 공지(vCenter Server 4.9.14용 NetApp Element 플러그인)"^]
+* link:./media/2.19.48_notice.pdf["관리 서비스 2.19.48 공지(vCenter Server 4.8.34용 NetApp Element 플러그인)"^]
+* link:./media/2.18.91_notice.pdf["관리 서비스 2.18.91 공지(vCenter Server 4.7.10용 NetApp Element 플러그인)"^]
+* link:./media/2.17.56-notice.pdf["관리 서비스 2.17.56 공지(vCenter Server 4.6.32용 NetApp Element 플러그인)"^]
+* link:./media/2.17_notice.pdf["관리 서비스 공지 2.17(vCenter Server 4.6.29용 NetApp Element 플러그인)"^]
+* link:./media/2.16_notice.pdf["관리 서비스 공지 2.16(vCenter Server 4.6.29용 NetApp Element 플러그인)"^]
+* link:./media/mgmt_svcs_2.14_notice.pdf["관리 서비스 공지 2.14(vCenter Server 4.5.42용 NetApp Element 플러그인)"^]
+* link:./media/2.13_notice.pdf["관리 서비스 공지 2.13(vCenter Server 4.5.42용 NetApp Element 플러그인)"^]
+* link:./media/mgmt_svcs2.11_notice.pdf["관리 서비스 공지 2.11(vCenter Server 4.4.72용 NetApp Element 플러그인)"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2870307["NetApp HCI 1.8에 대한 고지 사항"^]
 
