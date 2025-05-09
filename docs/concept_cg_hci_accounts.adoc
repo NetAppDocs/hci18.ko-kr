@@ -86,7 +86,6 @@ link:concept_hci_clusters.html#authoritative-storage-clusters["권한 있는 스
 
 * link:task_hcc_manage_accounts.html["사용자 계정을 관리합니다"]
 * link:concept_hci_clusters.html["클러스터에 대해 알아보십시오"]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI 리소스 페이지를 참조하십시오"^]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
 * https://docs.netapp.com/sfe-122/index.jsp["SolidFire 및 Element 문서 센터"^]
 

@@ -126,6 +126,5 @@ NOTE: PDF 및 Microsoft Word 문서 출력에는 배포를 위한 스위치 구�
 [discrete]
 == 자세한 내용을 확인하십시오
 
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI 리소스 페이지를 참조하십시오"^]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
 

@@ -45,6 +45,5 @@ NOTE: NetApp HCI 설치 프로세스에서 Witness 노드를 설치하면 VMware
 [discrete]
 == 자세한 내용을 확인하십시오
 
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI 리소스 페이지를 참조하십시오"^]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
 

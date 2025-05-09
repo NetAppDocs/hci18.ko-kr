@@ -179,5 +179,4 @@ image::bol_list_bugs_found.png[스토리지 펌웨어 번들 릴리스 정보]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/hci/index.jsp["NetApp HCI 문서 센터"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI 리소스 페이지 를 참조하십시오"^]
 

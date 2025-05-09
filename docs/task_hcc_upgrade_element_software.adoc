@@ -706,5 +706,4 @@ NOTE: 클러스터에 비 H610S 노드가 있는 경우 이러한 비 H610S 노�
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI 리소스 페이지 를 참조하십시오"^]
 

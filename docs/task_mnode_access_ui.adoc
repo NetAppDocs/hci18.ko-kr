@@ -60,5 +60,4 @@ image::mnode_swagger_ui.png[관리 노드 REST API UI]
 
 * link:task_mnode_enable_activeIQ.html["Active IQ 및 NetApp HCI 모니터링을 활성화합니다"]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI 리소스 페이지 를 참조하십시오"^]
 

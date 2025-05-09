@@ -256,5 +256,4 @@ IMPORTANT: 이전에 관리 노드에서 SSH 기능을 비활성화한 경우에
 
 * link:concept_hci_volumes.html#persistent-volumes["영구 볼륨"]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI 리소스 페이지 를 참조하십시오"^]
 

@@ -24,5 +24,4 @@ NetApp HCI을 사용하면 NetApp 하이브리드 클라우드 제어를 통해 
 
 * http://docs.netapp.com/sfe-122/index.jsp["SolidFire 및 Element 12.2 문서 센터"^]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI 리소스 페이지 를 참조하십시오"^]
 

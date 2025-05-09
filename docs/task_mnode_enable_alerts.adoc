@@ -74,5 +74,4 @@ NOTE: NetApp 배포 엔진을 사용하여 * AIQ로 데이터 전송 * 옵션을
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI 리소스 페이지 를 참조하십시오"^]
 

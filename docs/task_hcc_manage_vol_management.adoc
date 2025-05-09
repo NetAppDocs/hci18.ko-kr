@@ -305,5 +305,4 @@ IMPORTANT: 설치 또는 업그레이드 중에 관리 서비스와 연결된 �
 * link:concept_hci_volumes.html["볼륨에 대해 알아보십시오"]
 * http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-ug/GUID-2D2EAC0D-DD28-4ACA-A189-AA45E982EFDB.html["볼륨 작업"^]
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI 리소스 페이지 를 참조하십시오"^]
 
