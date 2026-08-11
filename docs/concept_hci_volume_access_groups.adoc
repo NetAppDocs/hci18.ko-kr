@@ -28,6 +28,7 @@ keywords: netapp, hci, storage volume, solidfire volume, element volume, persist
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * link:task_hcc_manage_vol_access_groups.html["볼륨 액세스 그룹을 관리합니다"]

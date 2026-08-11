@@ -19,6 +19,7 @@ Element 소프트웨어 버전 11.3 이상을 실행하는 클러스터의 경�
 
 
 
+[[access-the-management-node-per-node-ui]]
 == 노드별 관리 UI에 액세스합니다
 
 노드별 UI에서 네트워크 및 클러스터 설정에 액세스하고 시스템 테스트와 유틸리티를 사용할 수 있습니다.
@@ -38,6 +39,7 @@ image::mnode_per_node_442_ui.png[노드 별 관리 노드 UI]
 
 
 
+[[access-the-management-node-rest-api-ui]]
 == 관리 노드 REST API UI에 액세스합니다
 
 REST API UI에서 관리 노드의 관리 서비스를 제어하는 서비스 관련 API 메뉴에 액세스할 수 있습니다.

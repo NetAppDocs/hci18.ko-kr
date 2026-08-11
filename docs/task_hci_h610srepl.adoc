@@ -24,6 +24,7 @@ TIP: H610S의 경우 "노드" 및 "섀시"라는 용어는 단일 랙 유닛(1U)
 
 
 
+[[best-practices-for-adding-and-removing-drives]]
 == 드라이브 추가 및 제거에 대한 모범 사례
 
 클러스터에 드라이브를 추가하려면 다음 모범 사례를 따라야 합니다.
@@ -90,8 +91,8 @@ NOTE: 스위치가 케이블을 인식하지 못하는 경우 스위치 공급�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
 * http://docs.netapp.com/sfe-122/index.jsp["SolidFire 및 Element 소프트웨어 설명서 센터"^]
 

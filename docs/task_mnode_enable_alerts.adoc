@@ -20,6 +20,7 @@ NetApp HCI 경고 모니터링은 NetApp HCI 스토리지 클러스터 시스템
 
 
 
+[[alert-monitoring-options]]
 == 경고 모니터링 옵션
 
 [cols="2*"]

@@ -26,6 +26,7 @@ keywords: netapp, element, management node, mnode, network, nic, storage nic
 
 
 
+[[configure-a-storage-network-interface-controller-nic-for-an-untagged-network-interface]]
 == 태그 없는 네트워크 인터페이스에 대한 스토리지 NIC(Network Interface Controller)를 구성합니다
 
 .단계
@@ -68,6 +69,7 @@ https://$mnode_IP:442/json-rpc/10.0 \
 
 
 
+[[configure-a-storage-network-interface-controller-nic-for-a-tagged-network-interface]]
 == 태그가 지정된 네트워크 인터페이스에 대한 스토리지 NIC(Network Interface Controller)를 구성합니다
 
 .단계

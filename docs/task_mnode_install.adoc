@@ -61,6 +61,7 @@ Element 12.2 관리 노드는 선택적 업그레이드입니다. 기존 배포�
 
 
 
+[[download-iso-or-ova-and-deploy-the-vm]]
 == ISO 또는 OVA를 다운로드하고 VM을 배포합니다
 
 . NetApp 지원 사이트의 페이지에서 설치에 필요한 OVA 또는 ISO를 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"^] 다운로드합니다.
@@ -107,6 +108,7 @@ NOTE: 이미지를 사용하여 관리 노드를 설치하면 시작 화면이 �
 
 
 
+[[create-the-management-node-admin-and-configure-the-network]]
 == 관리 노드 admin을 생성하고 네트워크를 구성합니다
 
 . 터미널 사용자 인터페이스(TUI)를 사용하여 관리 노드 관리자 사용자를 생성합니다.
@@ -135,6 +137,7 @@ NOTE: 스토리지 트래픽을 격리하기 위해 추가 NIC가 필요한 경�
 
 
 
+[[configure-time-sync]]
 == 시간 동기화를 구성합니다
 
 . NTP를 사용하여 관리 노드와 스토리지 클러스터 간에 시간이 동기화되는지 확인합니다.
@@ -153,7 +156,7 @@ sudo service ntpd stop
 . NTP 구성 파일을 `/etc/ntp.conf`편집합니다.
 +
 .. 각 서버 앞에(`server 0.gentoo.pool.ntp.org` 를 추가하여 기본 서버에 대한 주석 처리) `#`.
-.. 추가할 각 기본 시간 서버에 대해 새 줄을 추가합니다. 기본 시간 서버는 에서 사용할 스토리지 클러스터에서 사용되는 NTP 서버와 같아야 link:task_mnode_install.html#set-up-the-management-node["나중에"]합니다.
+.. 기본 시간 서버를 추가하려면 각 서버마다 새 줄을 추가하십시오. 기본 시간 서버는 link:task_mnode_install.html#step-4-set-up-the-management-node["나중에"]에서 사용할 스토리지 클러스터에서 사용하는 NTP 서버와 동일해야 합니다.
 +
 [listing]
 ----
@@ -208,10 +211,11 @@ NOTE: 나중에 VM을 변경할 경우 이 옵션을 사용하지 마십시오.
 
 
 
-NOTE: 시간 동기화 구성을 완료한 후에는 NTP를 편집하지 마십시오. 관리 노드에서 를 실행할 때 NTP에 영향을 주기 때문입니다.link:task_mnode_install.html#set-up-the-management-node["설정 명령"]
+NOTE: 시간 동기화 구성을 완료한 후에는 NTP를 편집하지 마십시오. 관리 노드에서 link:task_mnode_install.html#step-4-set-up-the-management-node["설정 명령"]을(를) 실행할 때 NTP에 영향을 미칩니다.
 
 
 
+[[set-up-the-management-node]]
 == 관리 노드를 설정합니다
 
 . 관리 노드 setup 명령을 구성하고 실행합니다.
@@ -232,7 +236,7 @@ NOTE: 명령 이름의 약식 형식은 괄호( )로 되어 있으며 전체 이
 
 +
 *** * - -mnode_admin_user(-MU) [username] *: 관리 노드 관리자 계정의 사용자 이름입니다. 관리 노드에 로그인하는 데 사용한 사용자 계정의 사용자 이름일 수 있습니다.
-*** * -- storage_mvip(-SM) [MVIP 주소] *: Element 소프트웨어를 실행하는 스토리지 클러스터의 관리 가상 IP 주소(MVIP)입니다. 에서 사용한 것과 동일한 스토리지 클러스터를 사용하여 관리 노드를 link:task_mnode_install.html#configure-time-sync["NTP 서버 구성"]구성합니다.
+*** *--storage_mvip (-sm) [MVIP 주소]*: Element 소프트웨어가 실행되는 스토리지 클러스터의 관리 가상 IP 주소(MVIP)입니다. link:task_mnode_install.html#step-3-configure-time-sync["NTP 서버 구성"] 중에 사용한 것과 동일한 스토리지 클러스터로 관리 노드를 구성하십시오.
 *** * - -storage_username(-su) [username] *: 매개 변수로 지정한 클러스터의 스토리지 클러스터 관리자 사용자 `--storage_mvip` 이름입니다.
 *** * -- telemetry_active(-t) [true] *: Active IQ의 분석을 위해 데이터를 수집할 수 있도록 하는 true 값을 유지합니다.
 
@@ -275,6 +279,7 @@ NOTE: 클러스터의 기존 계정 이름과 다른 영구 볼륨의 경우 고
 
 
 
+[[configure-controller-assets]]
 == 컨트롤러 자산을 구성합니다
 
 . 설치 ID를 찾습니다.
@@ -341,6 +346,7 @@ NOTE: 컨트롤러 하위 자산을 추가하려면 vCenter에서 새로운 NetA
 
 
 
+[[netapp-hci-only-configure-compute-node-assets]]
 == (NetApp HCI만 해당) 컴퓨팅 노드 자산을 구성합니다
 
 . (NetApp HCI에만 해당) 컴퓨팅 노드 자산을 관리 노드의 알려진 자산에 추가합니다.

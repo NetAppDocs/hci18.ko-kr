@@ -18,6 +18,7 @@ keywords: netapp, hci, deployment, compatibility, nodes
 
 
 
+[[storage-node-compatibility]]
 == 스토리지 노드 호환성
 
 NetApp HCI는 SED(자체 암호화 드라이브) 및 FIPS 140-2 드라이브 암호화 기능을 통해 스토리지 노드 및 드라이브를 지원합니다. NetApp HCI를 구축 또는 확장할 때 보고된 암호화 수준이 서로 다른 노드를 혼합할 수 있지만, NetApp HCI는 이 상황에서 기본적인 암호화 형식만 지원합니다. 예를 들어 FIPS 암호화가 가능한 스토리지 노드를 SED 암호화만 지원하는 노드와 함께 사용하는 경우 SED 암호화가 이 구성에서 지원되지만 FIPS 드라이브 암호화는 지원되지 않습니다.
@@ -37,6 +38,7 @@ NOTE: 2노드 스토리지 클러스터를 구축할 경우 스토리지 노드 
 
 
 
+[[compute-node-compatibility]]
 == 컴퓨팅 노드 호환성
 
 컴퓨팅 노드를 인벤토리로 선택하려면 다음 요구 사항을 충족해야 합니다.
@@ -50,6 +52,7 @@ NOTE: 2노드 스토리지 클러스터를 구축할 경우 스토리지 노드 
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]

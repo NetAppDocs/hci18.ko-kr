@@ -54,11 +54,12 @@ H410C 컴퓨팅 노드를 교체할 때 다음 사항을 고려하십시오.
 
 * link:task_hci_removewn.html["Witness 노드를 제거하여 컴퓨팅 리소스를 확보합니다"]
 * <<비표준 BMC 암호로 교체 노드를 받은 경우 암호를 변경합니다>>
-* <<노드에서 BMC 펌웨어를 업그레이드합니다>>
+* link:task_hcc_upgrade_compute_node_firmware.html["노드에서 BMC 펌웨어를 업그레이드합니다"]
 
 
 
 
+[[prepare-to-replace-the-compute-node]]
 == 컴퓨팅 노드 교체를 준비합니다
 
 노드에서 호스팅되는 가상 머신(VM)을 사용 가능한 호스트로 마이그레이션하고 클러스터에서 장애가 발생한 노드를 제거해야 합니다. 일련 번호 및 네트워킹 정보와 같이 오류가 발생한 노드에 대한 세부 정보를 확인해야 합니다.
@@ -99,6 +100,7 @@ NOTE: 마이그레이션 단계는 VMware 설명서를 참조하십시오.
 
 
 
+[[replace-the-compute-node-in-the-chassis]]
 == 섀시에서 컴퓨팅 노드를 교체합니다
 
 클러스터에서 장애가 발생한 노드를 제거한 후 섀시에서 노드를 제거하고 교체 노드를 설치할 수 있습니다.
@@ -146,6 +148,7 @@ TIP: 교체 노드가 섀시의 다른 노드와 같은 방식으로 케이블�
 
 
 
+[[remove-the-compute-node-asset-in-netapp-hci-1-7-and-later]]
 == NetApp HCI 1.7 이상에서 컴퓨팅 노드 자산을 제거합니다
 
 NetApp HCI 1.7 이상에서는 노드를 물리적으로 교체한 후 관리 노드 API를 사용하여 컴퓨팅 노드 자산을 제거해야 합니다. REST API를 사용하려면 스토리지 클러스터에서 NetApp Element 소프트웨어 11.5 이상이 실행되고 있어야 하며 버전 11.5 이상을 실행하는 관리 노드를 구축해야 합니다.
@@ -176,12 +179,14 @@ NOTE: 인증을 시도한 후 오류 메시지가 나타나면 `Auth Error TypeE
 
 
 
+[[add-the-compute-node-to-the-cluster]]
 == 클러스터에 컴퓨팅 노드를 추가합니다
 
 컴퓨팅 노드를 다시 클러스터에 추가해야 합니다. 이 단계는 실행 중인 NetApp HCI 버전에 따라 다릅니다.
 
 
 
+[[netapp-hci-1-6p1-and-later]]
 === NetApp HCI 1.6P1 이상
 
 NetApp 하이브리드 클라우드 제어는 NetApp HCI 설치가 버전 1.6P1 이상에서 실행되는 경우에만 사용할 수 있습니다.
@@ -271,6 +276,7 @@ TIP: 일부 컴퓨팅 노드의 경우 vCenter 버전이 지원하는 최고 수
 
 
 
+[[netapp-hci-1-4-p2-1-4-and-1-3]]
 === NetApp HCI 1.4 P2, 1.4 및 1.3
 
 NetApp HCI 설치에서 버전 1.4P2, 1.4 또는 1.3을 실행하는 경우 NetApp 배포 엔진을 사용하여 클러스터에 노드를 추가할 수 있습니다.
@@ -349,6 +355,7 @@ TIP: 일부 컴퓨팅 노드의 경우 vCenter 버전이 지원하는 최고 수
 
 
 
+[[netapp-hci-1-2-1-1-and-1-0]]
 === NetApp HCI 1.2, 1.1 및 1.0
 
 노드를 물리적으로 교체한 후 VMware ESXi 클러스터에 노드를 다시 추가하고 사용 가능한 모든 기능을 사용할 수 있도록 여러 네트워킹 구성을 수행해야 합니다.
@@ -590,6 +597,7 @@ image::rescan.gif[스토리지 어댑터의 재검색 아이콘을 표시합니�
 
 
 
+[[redeploy-witness-nodes-for-two-and-three-node-storage-clusters]]
 == 2노드 및 3노드 스토리지 클러스터에 Witness 노드 재구축
 
 장애가 발생한 컴퓨팅 노드를 물리적으로 교체한 후 장애가 발생한 컴퓨팅 노드에서 Witness 노드를 호스팅하는 경우 NetApp HCI Witness 노드 VM을 재구축해야 합니다. 다음 지침은 2노드 또는 3노드 스토리지 클러스터를 포함한 NetApp HCI 설치의 일부인 컴퓨팅 노드에만 적용됩니다.
@@ -706,6 +714,7 @@ NOTE: Witness Node를 클러스터에 추가하기 전에 MTU를 설정하지 �
 
 
 
+[[change-the-password-if-you-received-a-replacement-node-with-a-non-standard-bmc-password]]
 == 비표준 BMC 암호로 교체 노드를 받은 경우 암호를 변경합니다
 
 일부 대체 노드는 BMC(베이스보드 관리 컨트롤러) UI에 대한 비표준 암호와 함께 제공될 수 있습니다. 비표준 BMC 암호가 있는 대체 노드를 수신하는 경우 암호를 기본값인 admin 으로 변경해야 합니다.
@@ -728,6 +737,7 @@ image::bmc pw sticker.png[는 IPMI 포트 아래에 스티커가 부착된 노�
 
 
 
+[[upgrade-the-bmc-firmware-on-your-node]]
 == 노드에서 BMC 펌웨어를 업그레이드합니다
 
 컴퓨팅 노드를 교체한 후 펌웨어 버전을 업그레이드해야 할 수 있습니다. 의 드롭다운 메뉴에서 최신 펌웨어 파일을 다운로드할 수 link:https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp Support 사이트(로그인 필요)"^]있습니다.
@@ -754,8 +764,8 @@ image::h410c-bmc3.png[BMC UI의 펌웨어 업데이트 화면을 표시합니다
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
 * http://docs.netapp.com/sfe-122/index.jsp["SolidFire 및 Element 소프트웨어 설명서 센터"^]
 

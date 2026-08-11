@@ -80,6 +80,7 @@ NetApp 하이브리드 클라우드 제어 UI 또는 API 업그레이드의 경�
 
 
 
+[[use-netapp-hybrid-cloud-control-ui-to-upgrade-a-compute-node]]
 == NetApp 하이브리드 클라우드 제어 UI를 사용하여 컴퓨팅 노드를 업그레이드하십시오
 
 관리 서비스 2.14부터 NetApp 하이브리드 클라우드 제어 UI를 사용하여 컴퓨팅 노드를 업그레이드할 수 있습니다. 노드 목록에서 업그레이드할 노드를 선택해야 합니다. Current Versions * (현재 버전 *) 탭은 현재 펌웨어 버전을 표시하고 * Proposed Versions * (제안된 버전 *) 탭은 사용 가능한 업그레이드 버전을 표시합니다(있는 경우).
@@ -152,6 +153,7 @@ TIP: 업그레이드 중에 장애가 발생할 경우 NetApp 하이브리드 �
 
 
 
+[[upgrade-status-changes]]
 === 업그레이드 상태 변경
 
 업그레이드 프로세스 전, 도중 및 이후에 UI에 표시되는 다양한 상태는 다음과 같습니다.
@@ -180,6 +182,7 @@ TIP: 업그레이드 중에 장애가 발생할 경우 NetApp 하이브리드 �
 |===
 
 
+[[use-netapp-hybrid-cloud-control-api-to-upgrade-a-compute-node]]
 == NetApp 하이브리드 클라우드 제어 API를 사용하여 컴퓨팅 노드를 업그레이드하십시오
 
 API를 사용하여 클러스터의 각 컴퓨팅 노드를 최신 펌웨어 버전으로 업그레이드할 수 있습니다. 원하는 자동화 툴을 사용하여 API를 실행할 수 있습니다. 여기에 설명된 API 워크플로에서는 관리 노드에서 사용할 수 있는 REST API UI를 예로 사용합니다.
@@ -397,6 +400,8 @@ https://<ManagementNodeIP>/hardware/2/
 
 
 
+[[use-a-usb-drive-imaged-with-the-latest-compute-firmware-bundle]]
+[[manual_method_USB]]
 == 최신 컴퓨팅 펌웨어 번들과 함께 이미지화된 USB 드라이브를 사용하십시오
 
 최신 컴퓨팅 펌웨어 번들이 다운로드된 USB 드라이브를 컴퓨팅 노드의 USB 포트에 삽입할 수 있습니다. 이 절차에서 설명하는 USB 썸 드라이브 방법을 사용하는 대신 BMC(Baseboard Management Controller) 인터페이스의 가상 콘솔에 있는 * 가상 CD/DVD * 옵션을 사용하여 컴퓨팅 노드에 컴퓨팅 펌웨어 번들을 마운트할 수 있습니다. BMC 방법은 USB 썸 드라이브 방식보다 훨씬 오래 걸립니다. 워크스테이션 또는 서버에 필요한 네트워크 대역폭이 있는지, 그리고 BMC와 브라우저 세션이 시간 초과되지 않는지 확인합니다.
@@ -430,6 +435,8 @@ NOTE: 클러스터에서 VMware DRS(Distributed Resource Scheduler)가 활성화
 
 
 
+[[use-the-baseboard-management-controller-bmc-user-interface-ui]]
+[[manual_method_BMC]]
 == 베이스보드 관리 컨트롤러(BMC) 사용자 인터페이스(UI) 사용
 
 순차적 단계를 수행하여 컴퓨팅 펌웨어 번들을 로드하고 컴퓨팅 펌웨어 번들로 노드를 재부팅하여 업그레이드가 성공했는지 확인해야 합니다. 컴퓨팅 펌웨어 번들은 웹 브라우저를 호스팅하는 시스템 또는 가상 머신(VM)에 있어야 합니다. 프로세스를 시작하기 전에 컴퓨팅 펌웨어 번들을 다운로드했는지 확인합니다.
@@ -446,6 +453,7 @@ NOTE: BMC UI를 통해 업그레이드하는 데 약 25-30분이 소요됩니다
 
 
 
+[[upgrade-firmware-on-h410c-and-h300eh500eh700e-nodes]]
 === H410C 및 H300E/H500E/H700E 노드에서 펌웨어 업그레이드
 
 노드가 클러스터의 일부인 경우 업그레이드 전에 유지보수 모드로 노드를 배치한 다음 업그레이드 후 유지보수 모드에서 제거해야 합니다.
@@ -510,6 +518,7 @@ NOTE: BIOS 버전은 노드가 완전히 부팅될 때까지 업그레이드된 
 
 
 
+[[upgrade-firmware-on-h610ch615c-nodes]]
 === H610C/H615C 노드에서 펌웨어를 업그레이드합니다
 
 이 단계는 노드가 독립 실행형인지 또는 클러스터의 일부인지에 따라 다릅니다. 이 절차는 약 25분 정도 소요되며, 노드 전원 끄기, 컴퓨팅 펌웨어 번들 업로드, 디바이스 플래싱, 업그레이드 후 노드 전원 켜기 등이 포함됩니다.
@@ -561,6 +570,7 @@ CAUTION: 전원이 켜지는 동안 약 5분 동안 KVM 콘솔에 * 신호 없�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]

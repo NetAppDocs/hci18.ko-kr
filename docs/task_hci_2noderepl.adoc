@@ -50,6 +50,7 @@ NOTE: 이 시점에서는 클러스터에서 노드를 제거하지 마십시오
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * http://docs.netapp.com/hci/index.jsp["NetApp HCI 문서 센터"^]

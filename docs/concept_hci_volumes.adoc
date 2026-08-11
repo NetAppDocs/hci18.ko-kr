@@ -20,6 +20,7 @@ vCenter Server용 NetApp Element 플러그인을 사용하면 사용자 계정�
 
 
 
+[[persistent-volumes]]
 == 영구 볼륨
 
 영구 볼륨을 사용하면 관리 노드 구성 데이터를 VM이 로컬로 저장되지 않고 지정된 스토리지 클러스터에 저장할 수 있으므로 관리 노드가 손실되거나 제거된 경우에도 데이터를 보존할 수 있습니다. 영구 볼륨은 선택 사항이지만 권장되는 관리 노드 구성입니다.
@@ -35,6 +36,7 @@ NOTE: 설치 또는 업그레이드 중에 관리 서비스와 연결된 영구 
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * link:task_hcc_manage_vol_management.html["볼륨 관리"]

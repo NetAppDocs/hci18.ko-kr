@@ -24,6 +24,7 @@ NOTE: Rancher 지원은 NetApp Support Edge 계약에 포함되지 않습니다.
 
 
 
+[[what-happens-when-you-deploy-rancher-on-netapp-hci]]
 == NetApp HCI에 Rancher를 구축하면 어떻게 됩니까?
 
 배포에는 다음 단계가 포함되며, 각 단계는 더 자세히 설명됩니다.
@@ -40,6 +41,7 @@ NOTE: Rancher 지원은 NetApp Support Edge 계약에 포함되지 않습니다.
 
 
 
+[[steps-to-deploy-rancher-on-netapp-hci]]
 == NetApp HCI에 Rancher를 구축하는 단계
 
 * <<NetApp 하이브리드 클라우드 제어에 액세스>>
@@ -49,6 +51,7 @@ NOTE: Rancher 지원은 NetApp Support Edge 계약에 포함되지 않습니다.
 
 
 
+[[access-the-netapp-hybrid-cloud-control]]
 === NetApp 하이브리드 클라우드 제어에 액세스
 
 구축을 시작하려면 NetApp 하이브리드 클라우드 제어에 액세스하십시오.
@@ -67,6 +70,7 @@ NetApp Hybrid Cloud Control 인터페이스가 나타납니다.
 
 
 
+[[deploy-rancher-on-netapp-hci]]
 === NetApp HCI에 Rancher 구축
 
 . Hybrid Cloud Control의 탐색 표시줄 왼쪽 아래에 있는 * rancher * 아이콘을 선택합니다.
@@ -132,6 +136,7 @@ image::rancher_deploy_complete_url.png[Rancher 배포 완료 및 URL]
 
 
 
+[[verify-your-deployment-by-using-vcenter-server]]
 === vCenter Server를 사용하여 구축을 확인합니다
 
 vSphere Client에서 3개의 가상 머신이 포함된 Rancher 관리 클러스터를 볼 수 있습니다.
@@ -141,6 +146,7 @@ IMPORTANT: 구축을 완료한 후에는 Rancher 서버 가상 머신 클러스�
 
 
 
+[[whats-next]]
 == 다음 단계
 
 배포 후 다음을 수행할 수 있습니다.

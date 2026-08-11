@@ -44,6 +44,7 @@ image::h410s_ssd_bays.png[에는 H410S 노드가 있는 4노드 섀시의 각 �
 
 
 
+[[prepare-to-replace-the-storage-node]]
 == 스토리지 노드 교체를 준비합니다
 
 교체 노드를 설치하기 전에 결함이 있는 스토리지 노드를 클러스터에서 올바르게 제거해야 합니다. 서비스 중단을 유발하지 않고 이 작업을 수행할 수 있습니다. Element UI에서 장애가 발생한 스토리지 노드의 일련 번호를 가져온 다음 노드 후면의 스티커에 있는 일련 번호와 일치해야 합니다.
@@ -84,6 +85,7 @@ NOTE: 노드가 여전히 온라인 상태이고 작동 중인 상태에서 구�
 
 
 
+[[replace-the-storage-node-in-the-chassis]]
 == 섀시의 스토리지 노드를 교체합니다
 
 결함이 있는 노드를 제거할 섀시의 동일한 슬롯에 교체 노드를 설치해야 합니다. UI에서 기록해 둔 일련 번호를 노드 후면의 일련 번호와 일치해야 합니다.
@@ -124,6 +126,7 @@ TIP: 교체 노드가 섀시의 다른 노드와 같은 방식으로 케이블�
 
 
 
+[[add-the-storage-node-to-the-cluster]]
 == 스토리지 노드를 클러스터에 추가합니다
 
 스토리지 노드를 다시 클러스터에 추가해야 합니다. 이 단계는 실행 중인 NetApp HCI 버전에 따라 다릅니다.
@@ -147,6 +150,7 @@ TIP: 최상의 안정성을 위해 모든 섀시에 걸쳐 스토리지 용량�
 
 
 
+[[netapp-hci-1-6p1-and-later]]
 === NetApp HCI 1.6P1 이상
 
 NetApp 하이브리드 클라우드 제어는 NetApp HCI 설치가 버전 1.6P1 이상에서 실행되는 경우에만 사용할 수 있습니다.
@@ -194,6 +198,7 @@ NOTE: NetApp HCI에서 입력한 IP 주소의 유효성을 확인하는 데 시�
 
 
 
+[[netapp-hci-1-4-p2-1-4-and-1-3]]
 === NetApp HCI 1.4 P2, 1.4 및 1.3
 
 NetApp HCI 설치에서 버전 1.4P2, 1.4 또는 1.3을 실행하는 경우 NetApp 배포 엔진을 사용하여 클러스터에 노드를 추가할 수 있습니다.
@@ -236,6 +241,7 @@ NOTE: Lightweight Directory Access Protocol 자격 증명을 사용하여 로그
 
 
 
+[[netapp-hci-1-2-1-1-and-1-0]]
 === NetApp HCI 1.2, 1.1 및 1.0
 
 노드를 설치하면 터미널 사용자 인터페이스(TUI)에 노드를 구성하는 데 필요한 필드가 표시됩니다. 노드를 클러스터에 추가하기 전에 노드에 필요한 구성 정보를 입력해야 합니다.
@@ -286,8 +292,8 @@ IMPORTANT: 드라이브를 한 번에 모두 추가하면 운영 중단이 발�
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
 * http://docs.netapp.com/sfe-122/index.jsp["SolidFire 및 Element 소프트웨어 설명서 센터"^]
 

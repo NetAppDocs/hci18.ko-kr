@@ -61,6 +61,7 @@ NOTE: 저장된 URL에서 나중에 명령을 실행하지 않도록 익명 창�
 ====
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * link:firmware_driver_versions.html["NetApp HCI 스토리지 노드의 NetApp HCI 및 펌웨어 버전에 대해 지원되는 펌웨어 및 ESXi 드라이버 버전"]

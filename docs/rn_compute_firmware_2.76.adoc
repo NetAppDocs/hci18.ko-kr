@@ -18,12 +18,14 @@ keywords: netapp, hci, compute firmware
 
 
 
+[[whats-new]]
 == 새로운 기능
 
 버전 2.76에는 일반적인 버그 수정이 포함되어 있습니다.
 
 
 
+[[updated-firmware-components]]
 === 펌웨어 구성 요소가 업데이트되었습니다
 
 이 펌웨어 패키지에는 업데이트된 버전이 굵은 글꼴로 표시된 하드웨어 구성 요소에 대한 다음 펌웨어 버전이 포함되어 있습니다.
@@ -42,6 +44,7 @@ keywords: netapp, hci, compute firmware
 |===
 
 
+[[changes-in-firmware-components]]
 === 펌웨어 구성 요소의 변경
 
 다음은 각 새 펌웨어 구성 요소에 포함된 개선 사항 및 변경 사항에 대한 세부 정보입니다.
@@ -59,6 +62,7 @@ keywords: netapp, hci, compute firmware
 |===
 
 
+[[mellanox-nic-firmware-driver-compatibility]]
 === Mellanox NIC 펌웨어 드라이버 호환성
 
 업데이트된 Mellanox 펌웨어 버전 14.25.1020 및 14.24.1000은 다음 버전의 VMware ESXi 드라이버와만 호환됩니다.
@@ -76,6 +80,7 @@ NetApp Deployment Engine 1.8P1은 ESXi 버전 7.0을 배포하지 않지만 ESXi
 
 
 
+[[download-compute-firmware-bundle-2-76]]
 == Compute Firmware Bundle 2.76을 다운로드합니다
 
 Compute Firmware Bundle을 다운로드하려면 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab/download/62542/Compute_Firmware_Bundle["NetApp HCI 컴퓨팅 펌웨어 번들"^] 페이지로 이동합니다.
@@ -84,6 +89,7 @@ Compute Firmware Bundle을 다운로드하려면 https://mysupport.netapp.com/si
 
 
 
+[[resolved-security-vulnerabilities]]
 == 보안 취약성 해결
 
 다음은 이 릴리스에서 해결된 보안 취약점입니다.
@@ -94,12 +100,14 @@ Compute Firmware Bundle을 다운로드하려면 https://mysupport.netapp.com/si
 
 
 
+[[resolved-and-known-issues]]
 == 해결된 알려진 문제입니다
 
 해결된 문제에 대한 자세한 내용과 새로운 문제에 대한 자세한 내용은 를 https://mysupport.netapp.com/site/bugs-online/product["버그 온라인 도구"^] 참조하십시오.
 
 
 
+[[accessing-the-bol-tool]]
 === BOL 도구 액세스
 
 . 로 https://mysupport.netapp.com/site/bugs-online/product["BOL 도구"^] 이동하여 드롭다운 목록에서 * Element Software * 를 선택합니다.

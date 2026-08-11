@@ -17,7 +17,7 @@ keywords: netapp, hci, dimm, compute nodes
 전체 노드를 교체하는 대신 NetApp HCI 컴퓨팅 노드에서 결함이 있는 DIMM(Dual Inline Memory Module)을 교체할 수 있습니다.
 
 .필요한 것
-* 이 절차를 시작하기 전에 NetApp Support에 문의하여 교체 부품을 받아야 합니다. 교체 설치 시 지원이 제공됩니다. 아직 수행하지 않은 경우 에 https://www.netapp.com/us/contact-us/support.aspx["지원"^]문의하십시오.
+* 이 절차를 시작하기 전에 NetApp 지원팀에 연락하여 교체 부품을 받아야 합니다. 교체 부품 설치 과정에 지원팀이 참여할 것입니다. 아직 연락하지 않으셨다면 지금 연락하십시오 https://www.netapp.com/company/contact-us/support/["지원"^].
 * 터미널 사용자 인터페이스(TUI)에 액세스하려면 노드의 전원을 차단하거나 주기를 전환한 다음 노드를 NetApp 안전 모드로 부팅해야 하므로 시스템 다운타임이 계획된 것입니다.
 
 
@@ -45,6 +45,7 @@ NOTE: H610C 및 H615C의 경우 노드와 섀시가 별도의 구성 요소가 �
 
 
 
+[[prepare-to-replace-the-dimm]]
 == DIMM 교체를 준비합니다
 
 DIMM 관련 문제가 발생하면 VMware ESXi에 , `Memory Uncorrectable ECC`, `Memory Transition to Critical` 및 와 `Memory Critical Overtemperature` 같은 경고가 표시됩니다 `Memory Configuration Error`. 알림이 잠시 후 사라지더라도 하드웨어 문제가 지속될 수 있습니다. 결함이 있는 DIMM을 진단하고 해결해야 합니다. vCenter Server에서 장애가 발생한 DIMM에 대한 정보를 얻을 수 있습니다. vCenter Server에서 사용할 수 있는 것보다 더 많은 정보가 필요한 경우 TUI에서 하드웨어 점검을 실행해야 합니다.
@@ -149,6 +150,7 @@ Size: 32 GB`
 
 
 
+[[replace-the-dimm-from-the-chassis]]
 == 섀시에서 DIMM을 교체합니다
 
 섀시에서 결함이 있는 DIMM을 물리적으로 분리하고 교체하기 전에 모든 작업을 수행했는지 link:task_hci_dimmcomputerepl.html#prepare-to-replace-the-dimm["준비 단계"]확인하십시오.
@@ -273,8 +275,8 @@ TIP: DIMM 교체 절차 후 vCenter의 하드웨어 상태 탭에서 경고 및 
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
 * http://docs.netapp.com/sfe-122/index.jsp["SolidFire 및 Element 소프트웨어 설명서 센터"^]
 

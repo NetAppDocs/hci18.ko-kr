@@ -22,6 +22,7 @@ NetApp HCI에 Rancher를 구축하면 _rancher server_라고도 하는 Rancher �
 
 
 
+[[benefits-of-rancher-on-netapp-hci]]
 == NetApp HCI 기반 Rancher의 이점
 
 * 간편한 설치: Rancher 설치 및 구성 방법을 배울 필요가 없습니다. NetApp HCI와 Rancher가 공동으로 개발한 템플릿 기반 구현을 구축할 수 있습니다.
@@ -30,6 +31,7 @@ NetApp HCI에 Rancher를 구축하면 _rancher server_라고도 하는 Rancher �
 
 
 
+[[what-you-can-do-with-rancher-on-netapp-hci]]
 == NetApp HCI의 Rancher와 함께 할 수 있는 일
 
 NetApp HCI에 Rancher가 있으면 다음과 같은 이점을 얻을 수 있습니다.
@@ -43,6 +45,7 @@ NetApp HCI에 Rancher가 있으면 다음과 같은 이점을 얻을 수 있습�
 
 
 
+[[technical-support-option]]
 == 기술 지원 옵션
 
 NetApp HCI 및 Kubernetes 오픈 소스 소프트웨어에서 Rancher를 사용하면 무료 구축 및 사용이 가능합니다. 라이센스 키는 필요하지 않습니다.
@@ -54,6 +57,7 @@ NOTE: Rancher 지원은 NetApp Support Edge 계약에 포함되지 않습니다.
 
 
 
+[[rancher-on-netapp-hci-architecture-and-components]]
 == NetApp HCI 아키텍처 및 구성 요소에 대한 Rancher
 
 다음은 NetApp HCI의 Rancher의 다양한 구성 요소에 대한 개요입니다.

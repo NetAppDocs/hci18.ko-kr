@@ -15,6 +15,7 @@ REST API로 수행할 수 있는 작업:
 
 
 
+[[authorization]]
 == 권한 부여
 
 * link:task_mnode_api_get_authorizationtouse.html["REST API 사용 인증 획득"]
@@ -22,6 +23,7 @@ REST API로 수행할 수 있는 작업:
 
 
 
+[[asset-configuration]]
 == 자산 구성
 
 * link:task_mnode_enable_activeIQ.html["Active IQ 및 NetApp HCI 모니터링을 활성화합니다"]
@@ -33,12 +35,13 @@ REST API로 수행할 수 있는 작업:
 
 
 
+[[asset-management]]
 == 자산 관리
 
 * link:task_mnode_edit_vcenter_assets.html["기존 컨트롤러 자산을 보거나 편집합니다"]
 * link:task_mnode_manage_storage_cluster_assets.html["스토리지 클러스터 자산을 생성하고 관리합니다"]
 * link:task_mnode_remove_assets.html["관리 노드에서 자산을 제거합니다"]
-* link:task_hcc_collectlogs.html#use-the-rest-api-to-collect-netapp-hci-logs["REST API를 사용하여 NetApp HCI 로그를 수집합니다"]
+* link:task_hcc_collectlogs.html#use-the-rest-api-to-collect-logs["REST API를 사용하여 로그를 수집합니다"]
 * link:task_mnode_api_find_mgmt_svcs_version.html["관리 노드 OS 및 서비스 버전을 확인합니다"]
 * link:task_mnode_logs.html["관리 서비스에서 로그를 가져오는 중입니다"]
 

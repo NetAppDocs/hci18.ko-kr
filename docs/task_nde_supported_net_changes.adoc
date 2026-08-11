@@ -26,6 +26,7 @@ NetApp HCI를 배포한 후 기본 네트워킹 구성을 제한적으로 변경
 
 
 
+[[h300e-h500e-h700e-and-h410c-compute-nodes]]
 == H300E, H500E, H700E 및 H410C 컴퓨팅 노드
 
 NetApp HCI는 H300E, H500E, H700E 및 H410C 노드에 대해 다음과 같은 네트워크 구성을 기대합니다.
@@ -83,6 +84,7 @@ NetApp HCI는 H300E, H500E, H700E 및 H410C 노드에 대해 다음과 같은 �
 |===
 
 
+[[h610c-compute-nodes]]
 == H610C 컴퓨팅 노드
 
 NetApp HCI는 H610C 노드에 대해 다음과 같은 네트워크 구성을 기대합니다.
@@ -109,6 +111,7 @@ NOTE: H610C 에서는 포트 A 및 B가 사용되지 않습니다.
 |===
 
 
+[[h615c-compute-nodes]]
 == H615C 컴퓨팅 노드
 
 NetApp HCI는 H615C 노드에 대해 다음과 같은 네트워크 구성을 기대합니다.
@@ -132,6 +135,7 @@ NetApp HCI는 H615C 노드에 대해 다음과 같은 네트워크 구성을 기
 |===
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]

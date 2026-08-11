@@ -61,6 +61,7 @@ NOTE: 지침이 필요한 경우 NetApp 지원에 문의하십시오.
 
 
 
+[[prepare-to-replace-the-faulty-switch]]
 == 결함이 있는 스위치를 교체할 준비를 합니다
 
 결함이 있는 스위치를 교체하기 전에 다음 단계를 수행하십시오.
@@ -80,6 +81,7 @@ NOTE: 지침이 필요한 경우 NetApp 지원에 문의하십시오.
 
 
 
+[[create-the-configuration-file]]
 == 구성 파일을 생성합니다
 
 생성한 구성 파일을 사용하여 스위치를 구성할 수 있습니다. 다음 옵션 중 하나를 선택하여 스위치에 대한 구성 파일을 생성합니다.
@@ -160,6 +162,7 @@ no interface mgmt0 dhcp
 |===
 
 
+[[remove-the-faulty-switch-and-install-the-replacement]]
 == 결함이 있는 스위치를 탈거하고 교체품을 장착하십시오
 
 결함이 있는 스위치를 제거하고 교체 스위치를 설치하는 단계를 수행하십시오.
@@ -180,6 +183,7 @@ NOTE: AC 전원이 공급되면 스위치가 자동으로 켜집니다. 전원 �
 
 
 
+[[verify-the-operating-system-version-on-the-switch]]
 == 스위치의 운영 체제 버전을 확인합니다
 
 스위치의 OS 소프트웨어 버전을 확인합니다. 결함이 있는 스위치와 정상 스위치의 버전이 일치해야 합니다.
@@ -213,14 +217,15 @@ System memory:     3525 MB used / 3840 MB free / 7365 MB total
 Swap:              0 MB used / 0 MB free / 0 MB total
 
 ----
-. 버전이 일치하지 않으면 OS를 업그레이드해야 합니다. 자세한 내용은 를 link:https://community.mellanox.com/s/article/howto-upgrade-switch-os-software-on-mellanox-switch-systems["Mellanox 소프트웨어 업그레이드 가이드"^]참조하십시오.
+. 버전이 일치하지 않으면 운영체제를 업그레이드해야 합니다. 자세한 내용은 link:https://community.mellanox.com/s/article/howto-upgrade-switch-os-software-on-mellanox-switch-systems["Mellanox 소프트웨어 업그레이드 가이드"^]을 참조하십시오.
 
 
 
 
+[[configure-the-replacement-switch]]
 == 교체 스위치를 구성합니다
 
-교체 스위치를 구성하는 단계를 수행하십시오. 자세한 내용은 을 link:https://docs.mellanox.com/display/MLNXOSv381000/Configuration+Management["Mellanox 구성 관리"^] 참조하십시오.
+교체 스위치를 구성하는 단계를 수행하십시오. 자세한 내용은 link:https://docs.mellanox.com/display/MLNXOSv381000/Configuration+Management["Mellanox 구성 관리"^]을 참조하십시오.
 
 .단계
 . 귀하에게 적용되는 옵션 중에서 선택하십시오.
@@ -278,6 +283,7 @@ NOTE: 텍스트 파일을 적용할 때는 재부팅할 필요가 없습니다.
 |===
 
 
+[[complete-the-replacement]]
 == 교체를 완료하십시오
 
 교체 절차를 완료하는 단계를 수행하십시오.
@@ -291,8 +297,8 @@ NOTE: 텍스트 파일을 적용할 때는 재부팅할 필요가 없습니다.
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
 * http://docs.netapp.com/sfe-122/index.jsp["SolidFire 및 Element 소프트웨어 설명서 센터"^]
 

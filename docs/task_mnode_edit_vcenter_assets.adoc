@@ -18,6 +18,7 @@ REST API를 사용하여 관리 노드 구성에서 기존 VMware vCenter 컨트
 
 
 
+[[access-the-management-services-rest-api]]
 == 관리 서비스 REST API에 액세스
 
 .단계
@@ -39,6 +40,7 @@ https://<ManagementNodeIP>/vcenter/1/
 
 
 
+[[view-stored-information-about-existing-controllers]]
 == 기존 컨트롤러에 대한 저장된 정보를 봅니다
 
 관리 노드에 등록된 기존 vCenter 컨트롤러를 나열하고 REST API를 사용하여 해당 컨트롤러에 대한 저장된 정보를 볼 수 있습니다.
@@ -55,6 +57,7 @@ API는 각 컨트롤러와 통신하는 데 사용되는 IP 주소, 컨트롤러
 
 
 
+[[view-the-status-of-an-existing-controller]]
 == 기존 컨트롤러의 상태를 봅니다
 
 관리 노드에 등록된 기존 vCenter 컨트롤러의 상태를 볼 수 있습니다. API는 NetApp Hybrid Cloud Control이 vCenter 컨트롤러에 연결할 수 있는지 여부와 해당 상태에 대한 이유를 나타내는 상태를 반환합니다.
@@ -71,6 +74,7 @@ API는 이 특정 vCenter 컨트롤러의 상태와 해당 상태에 대한 이�
 
 
 
+[[edit-the-stored-properties-of-a-controller]]
 == 컨트롤러의 저장된 속성을 편집합니다
 
 관리 노드에 등록된 기존 vCenter 컨트롤러의 저장된 사용자 이름 또는 암호를 편집할 수 있습니다. 기존 vCenter 컨트롤러의 저장된 IP 주소는 편집할 수 없습니다.

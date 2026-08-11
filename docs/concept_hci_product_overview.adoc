@@ -25,6 +25,7 @@ NetApp의 분리확장형 하이브리드 클라우드 인프라를 사용하면
 
 
 
+[[components-of-netapp-hci]]
 == NetApp HCI의 구성 요소
 
 다음은 NetApp HCI 환경의 다양한 구성 요소에 대한 개요입니다.
@@ -52,6 +53,7 @@ TIP: 에 대해 자세히 link:https://docs.netapp.com/us-en/solidfire-active-iq
 
 
 
+[[netapp-hci-urls]]
 == NetApp HCI URL
 
 NetApp HCI에서 사용하는 일반적인 URL은 다음과 같습니다.
@@ -85,5 +87,4 @@ NetApp HCI에서 사용하는 일반적인 URL은 다음과 같습니다.
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
 

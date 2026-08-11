@@ -29,6 +29,7 @@ NetApp HCI은 컴퓨팅과 스토리지 모두에 대해 다양한 구성 옵션
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]

@@ -21,6 +21,7 @@ NOTE: NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 
 
 
 
+[[netapp-hci]]
 == NetApp HCI
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2873790["NetApp HCI 1.8P1 릴리스 정보"^]
@@ -30,6 +31,7 @@ NOTE: NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 
 
 
 
+[[netapp-element-software]]
 == NetApp Element 소프트웨어
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2873789["NetApp Element 소프트웨어 12.2 릴리스 정보"^]
@@ -42,6 +44,7 @@ NOTE: NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 
 
 
 
+[[management-services]]
 == 관리 서비스
 
 * https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes["관리 서비스 릴리스 정보"^]
@@ -49,6 +52,7 @@ NOTE: NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 
 
 
 
+[[netapp-element-plug-in-for-vcenter-server]]
 == vCenter Server용 NetApp Element 플러그인
 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2885734["vCenter Plug-in 5.1 릴리즈 노트"^] _신규_
@@ -65,6 +69,7 @@ NOTE: NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 
 
 
 
+[[compute-firmware]]
 == 컴퓨팅 펌웨어
 
 * link:rn_compute_firmware_2.146.html["컴퓨팅 펌웨어 번들 2.146 릴리스 정보"]
@@ -75,6 +80,7 @@ NOTE: NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 
 
 
 
+[[storage-firmware]]
 == 스토리지 펌웨어
 
 * link:rn_storage_firmware_2.146.html["스토리지 펌웨어 번들 2.146 릴리스 정보"]

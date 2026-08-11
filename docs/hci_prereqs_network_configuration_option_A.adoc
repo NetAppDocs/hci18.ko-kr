@@ -18,6 +18,7 @@ NetApp HCI는 다양한 네트워크 케이블 연결 및 VLAN 구성을 활용�
 
 
 
+[[configuration-option-a-two-cables-for-compute-nodes]]
 == 구성 옵션 A: 컴퓨팅 노드에 대한 케이블 2개
 
 NetApp H410C, H610C 및 H615C 컴퓨팅 노드는 모든 NetApp HCI 네트워크 연결을 위해 두 개의 네트워크 케이블을 사용하여 지원합니다. 이 구성을 위해서는 스토리지, vMotion 및 모든 가상 머신 네트워크에서 VLAN 태깅을 사용해야 합니다. 모든 컴퓨팅 및 스토리지 노드는 동일한 VLAN ID 체계를 사용해야 합니다. 이 구성에서는 VMware vSphere Enterprise Plus 라이센스가 필요한 vSphere Distributed Switch를 사용합니다.
@@ -55,6 +56,7 @@ image::H615C_node_cabling.png[NetApp H615C 컴퓨팅 노드 네트워크 포트]
 |===
 
 
+[[vlan-configuration]]
 === VLAN 구성
 
 가장 좋은 방법은 노드가 사용 중인 모든 스위치 포트에 필요한 네트워크 세그먼트를 구성하는 것입니다. 예를 들면 다음과 같습니다.
@@ -80,6 +82,7 @@ image::hci_networking_config_scenario_1.png[HCI 네트워킹 구성 옵션 A 이
 
 
 
+[[example-switch-commands]]
 === 스위치 명령의 예
 
 다음 예제 명령을 사용하여 NetApp HCI 노드에 사용되는 모든 스위치 포트를 구성할 수 있습니다. 이러한 명령은 Cisco 구성을 기반으로 하지만 Mellanox 스위치에 적용하려면 약간의 변경만 필요합니다. 이 구성을 구현하는 데 필요한 특정 명령은 스위치 설명서를 참조하십시오. 인터페이스 이름, 설명 및 VLAN을 사용자 환경의 값으로 바꿉니다.

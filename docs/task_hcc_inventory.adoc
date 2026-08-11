@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar 
-permalink: docs/hcc_inventory.html 
+permalink: docs/task_hcc_inventory.html 
 summary: 하이브리드 클라우드 제어에서 시스템 인벤토리를 볼 수 있습니다. 
 keywords: netapp, hci, hcc, on premise, inventory, hybrid cloud control 
 ---
@@ -18,6 +18,7 @@ keywords: netapp, hci, hcc, on premise, inventory, hybrid cloud control
 
 
 
+[[steps]]
 == 단계
 
 . 로그인 페이지로 이동합니다 https://fabric.netapp.io["NetApp Fabric 오케스트레이터"^].
@@ -41,6 +42,6 @@ Cloud Central을 사용하면 계정을 개별 계정 또는 연결된 계정으
 [discrete]
 == 자세한 내용을 확인하십시오
 
-* https://cloud.netapp.com/home["NetApp Cloud Central에서"^]
+* https://www.netapp.com/google-cloud/netapp-volumes/["NetApp Cloud Central에서"^]
 * https://docs.netapp.com/us-en/cloud/["NetApp 클라우드 문서"^]
 

@@ -39,7 +39,6 @@
   <block id="62ccae3874e01d29fdbcf40fdcbabe07" category="inline-link-macro">클러스터에 대해 알아보십시오</block>
   <block id="28a1b7032dbb17f4e087c70b76748bd6" category="list-text"><block ref="28a1b7032dbb17f4e087c70b76748bd6" category="inline-link-macro-rx"></block></block>
   <block id="c93817bbfc3fab71f5f7ca740a11c847" category="inline-link">NetApp HCI 리소스 페이지를 참조하십시오</block>
-  <block id="acc25bb29912a0eb99591d6397d5e11d" category="list-text"><block ref="acc25bb29912a0eb99591d6397d5e11d" category="inline-link-rx"></block></block>
   <block id="a881a0468246e93ae6e2c5bccd78758e" category="inline-link">vCenter Server용 NetApp Element 플러그인</block>
   <block id="7cf5cffc3745b8348cdcfb1c3d0d472f" category="list-text"><block ref="7cf5cffc3745b8348cdcfb1c3d0d472f" category="inline-link-rx"></block></block>
   <block id="5f8609d94e6e2b2aad3f901f8d386c98" category="list-text"><block ref="5f8609d94e6e2b2aad3f901f8d386c98" category="inline-link-rx"></block></block>
@@ -167,7 +166,6 @@
   <block id="99494896be55aff6e412f1ef0dd3ca4c" category="list-text"><block ref="1f3c51825f286c5250086b5376a2ce29" category="inline-xref-macro-rx"></block></block>
   <block id="e56841e919b23e1af6ae192bcf82f545" category="list-text"><block ref="b85ef421159ab16d832d7cee8cebee71" category="inline-xref-macro-rx"></block></block>
   <block id="e73fbad1f8418c19025f40cdb1b36fc8" category="inline-link">TR-4741: NetApp Element 소프트웨어 원격 복제</block>
-  <block id="68f63921fdce687db3c7510ea1f63df3" category="paragraph">을<block ref="5fe7d084aafda4fb5c53715a85948ffe" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="ff5dd3355a0a16a7f2fc734ab2229851" category="section-title">클러스터 간 동기식 및 비동기식 복제</block>
   <block id="697cef1ff0b4e36164796a8a21f78548" category="paragraph">NetApp Element 소프트웨어를 실행하는 클러스터의 경우 실시간 복제를 통해 볼륨 데이터의 원격 복사본을 신속하게 생성할 수 있습니다.</block>
   <block id="0389e516b3bf2b6b34e9309ede779a02" category="paragraph">스토리지 클러스터를 최대 4개의 다른 스토리지 클러스터와 페어링할 수 있습니다. 장애 조치 및 장애 복구 시나리오를 위해 클러스터 쌍의 클러스터 중 하나에서 볼륨 데이터를 동기 또는 비동기식으로 복제할 수 있습니다.</block>
@@ -423,8 +421,6 @@
   <block id="b09b3ddef5713d8c729037ea2fb7b234" category="inline-link-macro">NetApp 하이브리드 클라우드 제어를 사용하여 컴퓨팅 노드 펌웨어를 업데이트합니다</block>
   <block id="5a5285cbae65a3a4e6d2325887861e01" category="inline-link-macro">Ansible을 사용하여 컴퓨팅 펌웨어 업그레이드를 자동화하십시오</block>
   <block id="7cb9171d2e41fd487907a91fb38fae31" category="list-text"><block ref="9c1d2a43cd65a3c0eacb2a0469676bce" category="inline-link-macro-rx"></block><block ref="ea7bc6be827f510faa492af963f76183" category="inline-link-macro-rx"></block> 또는.</block>
-  <block id="a83404b3b2ca8b3c39459b719d7844d7" category="inline-link">NetApp HCI 리소스 페이지 를 참조하십시오</block>
-  <block id="efb3497df51898324a04d1329dc9b9ae" category="list-text"><block ref="efb3497df51898324a04d1329dc9b9ae" category="inline-link-rx"></block></block>
   <block id="0c44c4e22a7e5a446ab9db51be083194" category="inline-link">NetApp SolidFire All-Flash 스토리지 시스템을 업그레이드하십시오</block>
   <block id="ba3433b658d56109d8826f49ee0a8064" category="list-text"><block ref="ba3433b658d56109d8826f49ee0a8064" category="inline-link-rx"></block></block>
   <block id="2f365e3a8139be3ec30cd09716dacb1f" category="summary">볼륨 액세스 그룹 및 이러한 그룹을 사용하여 볼륨에 액세스하고 볼륨을 관리하는 방법에 대해 알아보십시오.</block>
@@ -1303,10 +1299,6 @@
   <block id="a8eb35236338fefbad16baa7af1c75ba" category="cell">67GB</block>
   <block id="845f62e2611daf20a77cdbef343a155b" category="paragraph">NetApp HCI는 2노드 또는 3노드 스토리지 클러스터에서 특정 스토리지 노드 모델만 지원합니다. 자세한 내용은 사용 중인 NetApp HCI 버전에 대한 릴리즈 노트를 참조하십시오.</block>
   <block id="edc66b1482b45fd0e89fdbe4ba094191" category="admonition">NetApp HCI 설치 프로세스에서 Witness 노드를 설치하면 VMware vCenter에 VM 템플릿이 저장되며, Witness 노드가 실수로 제거, 손실 또는 손상된 경우 이를 다시 배포하는 데 사용할 수 있습니다. Witness Node를 호스팅하던 장애가 발생한 컴퓨팅 노드를 교체해야 하는 경우 이 템플릿을 사용하여 Witness Node를 재구축할 수도 있습니다. 자세한 내용은 2노드 및 3노드 스토리지 클러스터에 대한 * 재배포 Witness Node * 섹션을 <block ref="0deb95019659c8847f806617fd301765" category="inline-link-macro-rx"></block>참조하십시오.</block>
-  <block id="3d57c700c41601cb011883231fb4e5b8" category="summary">NetApp HCI을 사용하면 여러 퍼블릭 클라우드 공급자와 온프레미스 전반에서 클라우드 서비스를 구축할 수 있습니다. NetApp HCI를 사용하면 IT 부서의 개입 없이 셀프 서비스 모드에서 클라우드 공급자와 유사한 방식으로 서비스를 구축할 수 있습니다.</block>
-  <block id="f5925eb0265a585d14f6a64ad359e976" category="doc">NetApp HCI 솔루션</block>
-  <block id="921c0975b352bf1530a52271d2abf5c6" category="inline-link">NetApp HCI 솔루션 설명서</block>
-  <block id="705d4d08d5af2e9dd1c4616188dd681f" category="paragraph">NetApp HCI 솔루션에 대한 자세한 내용은 를<block ref="80564718f738f8f02fcd8afb2a3d09de" category="inline-link-rx"></block>참조하십시오.</block>
   <block id="0e68b38eaff7123dcc12ce395a147a48" category="summary">NetApp HCI는 스토리지와 컴퓨팅 리소스를 결합하여 NetApp Element 소프트웨어의 기능을 기반으로 하는 VMware vSphere 환경을 구축합니다.</block>
   <block id="2bfee064de23abb29a29ad16b90c3080" category="doc">NetApp HCI 구성 및 관리 문서</block>
   <block id="2d2319a467144bf3a0e5baabca9ea680" category="paragraph">NetApp 하이브리드 클라우드 제어 인터페이스를 사용하여 시스템을 업그레이드, 확장, 모니터링하고, vCenter Server용 NetApp Element 플러그인을 통해 NetApp HCI 리소스를 관리할 수 있습니다.</block>
@@ -1978,7 +1970,6 @@
   <block id="1f970ad168b614af403c08ae0addec4a" category="list-text">Cloud Central 페더레이션 조직의 일부인 경우 전자 메일을 입력하면 조직 로그인으로 라우팅됩니다.</block>
   <block id="bbc54dfaf6ea7409b8769581c153632e" category="list-text">다른 Cloud Central 제품에서 * Products * &gt; * NetApp Fabric Orchestrator * 를 선택합니다.</block>
   <block id="49fc376ed35249f3841846ede4dab884" category="inline-link">NetApp Cloud Central에서</block>
-  <block id="24d234fce5b4e0608a37069ac65a0027" category="list-text"><block ref="24d234fce5b4e0608a37069ac65a0027" category="inline-link-rx"></block></block>
   <block id="6d0eb695a99109617b806676e9610075" category="inline-link">NetApp 클라우드 문서</block>
   <block id="3b4b536e5eddf372cafd89d843b3e90f" category="list-text"><block ref="3b4b536e5eddf372cafd89d843b3e90f" category="inline-link-rx"></block></block>
   <block id="839ff18e4b338f808e22e4d0a4c70094" category="summary">NetApp 하이브리드 클라우드 제어를 사용하여 NetApp HCI 또는 Element 설치로부터 로그를 수집하면 문제 해결에 도움이 됩니다.</block>
@@ -3400,7 +3391,6 @@
   <block id="5341cf82768527e8ec6595a43bdc4ec1" category="paragraph">에 대한 자세한<block ref="18c9f66b9c4748b4c8449ae37665187f" category="inline-link-rx"></block> 내용은 _NetApp Element 사용 설명서_ 를 참조하십시오.</block>
   <block id="c2fb1f46e0a1dd8e660dc2cf928cf263" category="list-text">* QoS 정책 *: 볼륨에 적용된 QoS 정책을 확인할 수 있습니다. QoS 정책은 여러 볼륨에 최소 IOPS, 최대 IOPS 및 버스트 IOPS에 대한 표준화된 설정을 적용합니다.</block>
   <block id="a9664f2c069d2936e0d10e7ef1bdf822" category="inline-link-macro">성능 및 QoS 정책</block>
-  <block id="a1fbdd995fe1c1ccce6635a976aff3a7" category="paragraph">에 대한 정보를 <block ref="c41e4fefd5b14d95ad96eb2c4a1441c5" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="e5aacea53cc4500ea57c9d9cdfd456b9" category="inline-link">서비스 품질 정책</block>
   <block id="66c293ee9e520d244545ef3eda06ab9a" category="paragraph">에 대한 자세한<block ref="c5f7ecefa201ab45cb8d7e80ac3c57ea" category="inline-link-rx"></block> 내용은 _NetApp Element 사용 설명서_ 를 참조하십시오.</block>
   <block id="415318d7656cc7660bc1ff66c86c35f1" category="inline-link">NetApp SolidFire 및 Element 문서 센터</block>
@@ -3501,7 +3491,6 @@
   <block id="e4c0dc0176dda3b4da6aef23b6489dad" category="summary">전체 노드를 교체하는 대신 NetApp HCI 컴퓨팅 노드에서 결함이 있는 DIMM(Dual Inline Memory Module)을 교체할 수 있습니다.</block>
   <block id="f5bee34d8efcc268df11e9b404d64ab4" category="doc">컴퓨팅 노드의 DIMM을 교체합니다</block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="inline-link">지원</block>
-  <block id="0d4b8eddcdeb5a25195c2e6412a8f38e" category="list-text">이 절차를 시작하기 전에 NetApp Support에 문의하여 교체 부품을 받아야 합니다. 교체 설치 시 지원이 제공됩니다. 아직 수행하지 않은 경우 에<block ref="98d845834ac9e1a9127f330339ecea9b" category="inline-link-rx"></block>문의하십시오.</block>
   <block id="02483916c2b8b4e2157a6b33019e9b14" category="list-text">터미널 사용자 인터페이스(TUI)에 액세스하려면 노드의 전원을 차단하거나 주기를 전환한 다음 노드를 NetApp 안전 모드로 부팅해야 하므로 시스템 다운타임이 계획된 것입니다.</block>
   <block id="137e2bc9c60fafbc63a75788202d131e" category="paragraph">이 절차는 다음과 같은 컴퓨팅 노드 모델에 적용됩니다.</block>
   <block id="b68f21bcf771598bcab68314acc4bae1" category="list-text">H410C 노드 H410C 노드는 2U NetApp HCI 섀시에 삽입됩니다.</block>
@@ -3684,7 +3673,6 @@
   <block id="2fbd4cfd16900b4f22e7f4097fc857d1" category="list-text">설치 전에 _NetApp HCI 설치 검색 워크북_을 사용하여 네트워크를 구성하십시오.</block>
   <block id="c94f753aa1baf797e0eea49696404564" category="inline-link">_TR-4820: NetApp HCI 네트워킹 빠른 계획 가이드 _</block>
   <block id="886bc05c9156ba9a0ef0e59bbe922cc0" category="inline-link">_NetApp HCI 설치 및 설정 지침 _</block>
-  <block id="5824ec67f2e84250bfcd931d8f2d6a16" category="list-text">자세한 내용과 기타 지원되는 구성은<block ref="be0a1633f05f833fc37598e3b5d7e95e" category="inline-link-rx"></block> 및 를 참조하십시오<block ref="a72ae021af8843b5883c31a3cf48fdbb" category="inline-link-rx"></block>.</block>
   <block id="edeed001a7f09dfe7e394923f01fabcb" category="inline-link">_TR-4823:NetApp HCI 2-노드 스토리지 클러스터 _</block>
   <block id="8a91fe255efcffde80021047735fd330" category="list-text">4개 미만의 스토리지 노드로 구성된 NetApp HCI 구성에 대한 자세한 내용은 을 참조하십시오.<block ref="54d37355d9369a629af27e51f6998cd4" category="inline-link-rx"></block></block>
   <block id="2ddcd8d0a81226eb8f35042ac6c6e593" category="inline-link-macro">최적의 스토리지 성능을 위해 LCAP를 구성합니다</block>
@@ -3787,7 +3775,6 @@
   <block id="3664bb4df59eca4395d94a7c6384dfc0" category="inline-link-macro">NetApp HCI 설치 및 설정 지침</block>
   <block id="07b021dc180c131c18c2e77e5fa1150f" category="list-text"><block ref="07b021dc180c131c18c2e77e5fa1150f" category="inline-link-macro-rx"></block></block>
   <block id="f62052d22b7c5c8f9a15b0afff504755" category="inline-link">TR-4820: NetApp HCI 네트워킹 빠른 계획 가이드</block>
-  <block id="1e4bf851d18462d626029f69f75339e4" category="list-text"><block ref="1e4bf851d18462d626029f69f75339e4" category="inline-link-rx"></block></block>
   <block id="1a6b461e9bfe6fa0293411907a90a5f2" category="inline-link">vCenter Server용 NetApp Element 플러그인 가이드 를 참조하십시오</block>
   <block id="c77cf32bf80a92528519818b2c65389a" category="list-text"><block ref="c77cf32bf80a92528519818b2c65389a" category="inline-link-rx"></block></block>
   <block id="61ef7316fec99b866e4908a20af06e08" category="inline-link">NetApp 구성 어드바이저</block>
@@ -3816,7 +3803,6 @@
   <block id="cd4a531fb438950b1b12718c24e3a003" category="inline-link-macro">Witness 노드를 제거하여 컴퓨팅 리소스를 확보합니다</block>
   <block id="6f2e0dd9461f023001b32f634a66ca39" category="list-text"><block ref="6f2e0dd9461f023001b32f634a66ca39" category="inline-link-macro-rx"></block></block>
   <block id="d5e0ed137993fa47f6c52eaba475f986" category="list-text"><block ref="96458e97c135f9cdca1845fd2743e79f" category="inline-xref-macro-rx"></block></block>
-  <block id="27e4d3a5ce33dd22d6512ac546804968" category="list-text"><block ref="d095c71c5d51f56f74c0c624a25acdfc" category="inline-xref-macro-rx"></block></block>
   <block id="bdf21dc543b5ab0b0d4037a3b86f500e" category="section-title">컴퓨팅 노드 교체를 준비합니다</block>
   <block id="49de3917417cb7a9d4c88a097084490f" category="paragraph">노드에서 호스팅되는 가상 머신(VM)을 사용 가능한 호스트로 마이그레이션하고 클러스터에서 장애가 발생한 노드를 제거해야 합니다. 일련 번호 및 네트워킹 정보와 같이 오류가 발생한 노드에 대한 세부 정보를 확인해야 합니다.</block>
   <block id="d8d7c90a9eba54aa51121a64132d7c53" category="list-text">VMware vSphere Web Client에서 사용 가능한 다른 호스트로 VM을 마이그레이션하는 단계를 수행합니다.</block>
@@ -4324,7 +4310,6 @@
   <block id="7053a770bcaf6591077ecf55c1f2c0a4" category="admonition">케이블을 포트에 억지로 밀어 넣지 마십시오. 케이블, 포트 또는 둘 다 손상될 수 있습니다.</block>
   <block id="95697567af66baab5ea5d98383e97223" category="list-text">VMware vSphere Web Client의 ESXi 클러스터에 컴퓨팅 노드(호스트)가 나열되어 있는지 확인합니다.</block>
   <block id="7d9e1a16a83e11a28fef50d0acce5b90" category="list-text">장애가 발생한 섀시의 모든 컴퓨팅 노드에 대해 다음 단계를 수행합니다.</block>
-  <block id="27e786eaf760a6ac90357b58cb90a1be" category="section-title">스토리지 노드를 이동합니다</block>
   <block id="2066ccb4f8458a45a23a14ac7e916781" category="paragraph">스토리지 노드를 새 섀시로 이동하기 전에 드라이브를 제거하고 노드를 올바르게 종료하며 모든 구성 요소에 레이블을 지정해야 합니다.</block>
   <block id="12f93d59a7efc0b0e1679f799784e614" category="list-text">제거할 노드를 다음과 같이 식별합니다.</block>
   <block id="0ef3b9d5d5c8d8652d5a032119943380" category="list-text">노드 뒷면의 스티커에 있는 노드의 일련 번호를 기록합니다.</block>
@@ -4360,7 +4345,6 @@
   <block id="8296d229fd443d148456ff7747462250" category="section-title">컴퓨팅 노드를 종료합니다</block>
   <block id="02fb7ecfe6b7cdd3f0889b302095f20d" category="paragraph">컴퓨팅 노드를 새 섀시로 이동하기 전에 VM을 마이그레이션하고 올바르게 종료한 다음 노드에 삽입된 케이블에 레이블을 지정해야 합니다.</block>
   <block id="76e494e8b99069a5520668a0aa993a90" category="section-title">스토리지 노드를 종료합니다</block>
-  <block id="bfeb80f39c9dc994b57028cbb053580d" category="paragraph">단계를 <block ref="df6122283c464ca330404dd105a96891" category="inline-xref-macro-rx"></block>참조하십시오.</block>
   <block id="af112ce9016255d25cbd51eddef8373d" category="section-title">노드를 제거합니다</block>
   <block id="9b73926922f6e997518f2dfce7bd6925" category="paragraph">섀시에서 노드를 조심스럽게 분리하고 모든 구성 요소에 레이블을 지정해야 합니다. 물리적으로 노드를 제거하는 단계는 스토리지 노드와 컴퓨팅 노드 모두에서 동일합니다. 스토리지 노드의 경우 노드를 제거하기 전에 드라이브를 제거합니다.</block>
   <block id="3fd7949e55587bdd1d74571734c6fb7b" category="list-text">스토리지 노드의 경우 다음과 같이 섀시의 노드에서 드라이브를 제거합니다.</block>
@@ -4403,7 +4387,6 @@
   <block id="7a4dd69b33ba0cb526b3f529660227ed" category="inline-link-macro">SN2010, SN2100 및 SN2700 스위치를 교체합니다</block>
   <block id="9345b76867dd96005ed1e404ca6e256f" category="list-text"><block ref="9345b76867dd96005ed1e404ca6e256f" category="inline-link-macro-rx"></block></block>
   <block id="82b3f7ae87bb09e10a73ba2a67846c4f" category="list-text"><block ref="82b3f7ae87bb09e10a73ba2a67846c4f" category="inline-link-macro-rx"></block></block>
-  <block id="a5f38386dcceecb027de7fd15fcc6aa4" category="list-text"><block ref="a5f38386dcceecb027de7fd15fcc6aa4" category="inline-link-rx"></block></block>
   <block id="0f60bab2e5199a2a170f3a2a45c881a6" category="list-text"><block ref="6e3eeeb26eacee460355bd5f8c854330" category="inline-link-rx"></block> 5.8.1 이상 네트워크 검증 도구</block>
   <block id="3677ff922c132263938bc37715711068" category="summary">NetApp HCI를 사용하기 전에 스토리지 및 컴퓨팅 노드를 올바르게 설치해야 합니다.</block>
   <block id="49e20b8766c85b92858bdf473be281af" category="inline-link-macro">포스터</block>
@@ -4675,10 +4658,8 @@
   <block id="563e6cdf27a660354fb10da02cd00379" category="list-text">구성 모드로 들어갑니다.</block>
   <block id="0e3562675515d1e106de5db7f8ba0789" category="list-text"><block ref="48f6d03db0af7dafae461857e48942d9" prefix=" " category="inline-code"></block>명령을 실행합니다. 다음 예를 참조하십시오.</block>
   <block id="e49dde0c9484b0d16dbf41d8bd5e9232" category="inline-link-macro">Mellanox 소프트웨어 업그레이드 가이드</block>
-  <block id="02b59f4918a38aa67041aa6ce96452c5" category="list-text">버전이 일치하지 않으면 OS를 업그레이드해야 합니다. 자세한 내용은 를 <block ref="7f4c0735abc8ca21424ba9a35e46f582" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="6a18d1436322c8eb547ae030c0808970" category="section-title">교체 스위치를 구성합니다</block>
   <block id="698ca0582509f17e9a5c38bbac3ff5c5" category="inline-link-macro">Mellanox 구성 관리</block>
-  <block id="677e1977d242f09ac2153ac83f2ee5ca" category="paragraph">교체 스위치를 구성하는 단계를 수행하십시오. 자세한 내용은 을 <block ref="47d07e4817f2cf0a0b60826cd7739948" category="inline-link-macro-rx"></block> 참조하십시오.</block>
   <block id="e8d9a35488e4e2c58ca75113b80ed61c" category="list-text">귀하에게 적용되는 옵션 중에서 선택하십시오.</block>
   <block id="c60b452281b931eedfbe5c66e518771b" category="cell">를 선택합니다</block>
   <block id="8e4a7e6a81a62d4f42e431a421fc80be" category="list-text">다음 예와 같이 bin 구성 파일을 가져옵니다.</block>
@@ -5048,7 +5029,6 @@
   <block id="5c6c4538d95e26d538800e50027bee98" category="list-text">NTP 구성 파일을<block ref="da6e8c31c4b01f79120fb363f8545fb0" prefix=" " category="inline-code"></block>편집합니다.</block>
   <block id="89d9f3d393bbf8730274fc4a10310a89" category="list-text">각 서버 앞에<block ref="35d864944e92fbca987e3924eee767fe" prefix="(" category="inline-code"></block> 를 추가하여 기본 서버에 대한 주석 처리)<block ref="01abfc750a0c942167651c40d088531d" prefix=" " category="inline-code"></block>.</block>
   <block id="b74df8ed66dab15b4d425c5788286114" category="inline-link-macro">나중에</block>
-  <block id="148f57c4f729acea3c3d95b35553a056" category="list-text">추가할 각 기본 시간 서버에 대해 새 줄을 추가합니다. 기본 시간 서버는 에서 사용할 스토리지 클러스터에서 사용되는 NTP 서버와 같아야 <block ref="1d132a4516f2aafec8e6c256f33f26a5" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="79a26a29d17e6425a3d5b1deaf51ab27" category="list-text">완료되면 구성 파일을 저장합니다.</block>
   <block id="47b45d19326795031f64b4a16a828d92" category="list-text">새로 추가된 서버와 NTP 동기화를 강제로 수행합니다.</block>
   <block id="618bc09f6dd3ac7774f4a78b0820ef99" category="list-text">NTPD를 다시 시작합니다.</block>
@@ -5059,7 +5039,6 @@
   <block id="5713fd020209c4c609f636c33df03095" category="list-text">vSphere에서<block ref="31aa78e37f0aeb3e8c9c5025431be8f0" prefix=" " category="inline-code"></block> VM 옵션에서 확인란이 선택 취소되어 있는지 확인합니다.</block>
   <block id="29c3f66306d4b9c80ad86deebb2fabcf" category="admonition">나중에 VM을 변경할 경우 이 옵션을 사용하지 마십시오.</block>
   <block id="2d80cb22364fea2daaca797ae1d938cb" category="inline-link-macro">설정 명령</block>
-  <block id="a482c646f7f8199c69090c0d13cac33b" category="admonition">시간 동기화 구성을 완료한 후에는 NTP를 편집하지 마십시오. 관리 노드에서 를 실행할 때 NTP에 영향을 주기 때문입니다.<block ref="418ec8b5cff4068b256dfd7e9fc5ded7" category="inline-link-macro-rx"></block></block>
   <block id="627bbdc5a7179606b85a5d6ccb6f65e1" category="section-title">관리 노드를 설정합니다</block>
   <block id="5a808c62f4f9557c4df556d6a230ba7c" category="list-text">관리 노드 setup 명령을 구성하고 실행합니다.</block>
   <block id="58df37229524fed632f3c53880c146c3" category="admonition">보안 프롬프트에 암호를 입력하라는 메시지가 표시됩니다. 클러스터가 프록시 서버 뒤에 있는 경우 공용 네트워크에 연결할 수 있도록 프록시 설정을 구성해야 합니다.</block>
@@ -5067,7 +5046,6 @@
   <block id="fea104dd45bc0e75d821ddd5af2b02d0" category="admonition">명령 이름의 약식 형식은 괄호( )로 되어 있으며 전체 이름으로 대체할 수 있습니다.</block>
   <block id="3f124867257c579e7ba689baed3d4f45" category="list-text">* - -mnode_admin_user(-MU) [username] *: 관리 노드 관리자 계정의 사용자 이름입니다. 관리 노드에 로그인하는 데 사용한 사용자 계정의 사용자 이름일 수 있습니다.</block>
   <block id="4c7c8af8d2f636be58c2cffb73df599e" category="inline-link-macro">NTP 서버 구성</block>
-  <block id="26857b6da47c6d418e7795fa65480fb4" category="list-text">* -- storage_mvip(-SM) [MVIP 주소] *: Element 소프트웨어를 실행하는 스토리지 클러스터의 관리 가상 IP 주소(MVIP)입니다. 에서 사용한 것과 동일한 스토리지 클러스터를 사용하여 관리 노드를 <block ref="5d58d27cc80ea9072f2b9ee8ac714542" category="inline-link-macro-rx"></block>구성합니다.</block>
   <block id="4e1df484ad6625a5245817997c822b47" category="list-text">* - -storage_username(-su) [username] *: 매개 변수로 지정한 클러스터의 스토리지 클러스터 관리자 사용자<block ref="391c26f574aa116627e9ffa00caca891" prefix=" " category="inline-code"></block> 이름입니다.</block>
   <block id="d71eed1c64f0531e1c1642b076495af1" category="list-text">* -- telemetry_active(-t) [true] *: Active IQ의 분석을 위해 데이터를 수집할 수 있도록 하는 true 값을 유지합니다.</block>
   <block id="e4d37c44acea4cf6b1f090b66eb5cdb4" category="list-text">(선택 사항): 명령에 Active IQ 끝점 매개 변수를 추가합니다.</block>
@@ -5222,7 +5200,6 @@
   <block id="7dc7cd6c0a9303656eaae96b55f5b653" category="list-text">추가할 각 기본 시간 서버에 대해 새 줄을 추가합니다. 기본 시간 서버는 에서 사용할 스토리지 클러스터에서 사용되는 NTP 서버와 같아야 <block ref="37f19ee15c62b224001c3e4e1e425721" category="inline-link-macro-rx"></block>합니다.</block>
   <block id="51aa09599efde7b5f904971077e61890" category="list-text">[[substep_f_recover_config_time_sync]] 하이퍼바이저를 통해 호스트와 시간 동기화를 비활성화합니다(VMware의 예).</block>
   <block id="2402451989cd172cbc3b634b598a7bf7" category="inline-xref">재구축 명령</block>
-  <block id="f495ed37a1bc23c35eb85ae7536b34f8" category="admonition">시간 동기화 구성을 완료한 후에는 NTP를 편집하지 마십시오. 관리 노드에서 를 실행할 때 NTP에 영향을 주기 때문입니다.<block ref="09beec75f3bf74c9ec51917f2b1066ff" category="inline-xref-macro-rx"></block></block>
   <block id="7392304f705f94f7fdf38ce147ecf186" category="section-title">관리 노드를 구성합니다</block>
   <block id="0b3f4aef2ecb931e35307de851e91051" category="list-text">관리 서비스 번들 컨텐츠에 대한 임시 대상 디렉토리를 생성합니다.</block>
   <block id="17bf7b0a6d680e443bce8aac9131892f" category="list-text">기존 관리 노드에 이전에 설치된 관리 서비스 번들(버전 2.15.28 이상)을 다운로드하여<block ref="cdf5057722b0d52a226f03b062c5ea77" prefix=" " category="inline-code"></block> 디렉토리에 저장하십시오.</block>
@@ -5231,7 +5208,6 @@
   <block id="0b14317f8b31804af29e937823f6f9b0" category="list-text">계정 및 볼륨에 대한 구성 파일 생성:</block>
   <block id="5a9bea8b6ec6d8a6393b9b55bc00d11e" category="list-text">* [mvip ip address] *: 스토리지 클러스터의 관리 가상 IP 주소입니다. 에서 사용한 것과 동일한 스토리지 클러스터를 사용하여 관리 노드를 <block ref="27a45bb138de34c76f63ba91c24ab011" category="inline-link-macro-rx"></block>구성합니다.</block>
   <block id="8ff5d9c0aeeb77f5fe74a3ab2ad278f5" category="list-text">* [persistent volume account name] *: 이 스토리지 클러스터의 모든 영구 볼륨과 연관된 계정 이름입니다.</block>
-  <block id="869a9eef63e18fff462d7fb6eae2eb50" category="list-text">관리 노드 재구축 명령을 구성 및 실행하여 클러스터에서 호스팅되는 영구 볼륨에 연결하고 이전 관리 노드 구성 데이터로 서비스를 시작합니다.</block>
   <block id="acdd886bc4045222b632b7cf0f124f21" category="list-text">대괄호를 포함하여 [ ] 대괄호 안의 값을 관리 노드 관리자 계정의 사용자 이름으로 바꿉니다. 관리 노드에 로그인하는 데 사용한 사용자 계정의 사용자 이름일 수 있습니다.</block>
   <block id="447a2c77b25a29c4b95502c7ce068a00" category="admonition">사용자 이름을 추가하거나 스크립트에서 정보를 묻는 메시지를 표시하도록 허용할 수 있습니다.</block>
   <block id="cad0c5c8ceda74235801d01a1f9fd1c9" category="list-text"><block ref="faaf2e9e5a5cc2c4af43e269f4625600" prefix=" " category="inline-code"></block>명령을 실행합니다. 재구축이 완료되면 스크립트에 성공 메시지가 표시됩니다.</block>
@@ -5383,8 +5359,6 @@
   <block id="177512b9add0b40c38dad61838bf7d79" category="section-title">자산 관리</block>
   <block id="e578d1edd1f3c874d49e1c9e76becbbc" category="list-text"><block ref="e578d1edd1f3c874d49e1c9e76becbbc" category="inline-link-macro-rx"></block></block>
   <block id="a3a21bb5101c6a20e1c58197e7443000" category="list-text"><block ref="a3a21bb5101c6a20e1c58197e7443000" category="inline-link-macro-rx"></block></block>
-  <block id="1e553ee8b0d8322a51109417a46f73e3" category="inline-link-macro">REST API를 사용하여 NetApp HCI 로그를 수집합니다</block>
-  <block id="091d9ffd182526624821c249c3335c90" category="list-text"><block ref="091d9ffd182526624821c249c3335c90" category="inline-link-macro-rx"></block></block>
   <block id="c9676e9b030c94e7e828a060b343f3db" category="list-text"><block ref="c9676e9b030c94e7e828a060b343f3db" category="inline-link-macro-rx"></block></block>
   <block id="b8ce529cfc2b9255a783e211ddb57996" category="list-text"><block ref="b8ce529cfc2b9255a783e211ddb57996" category="inline-link-macro-rx"></block></block>
   <block id="9cce958dcc64c232fd2c1c35b2dadde7" category="list-text"><block ref="9cce958dcc64c232fd2c1c35b2dadde7" category="inline-link-macro-rx"></block></block>
@@ -6297,4 +6271,22 @@
   <block id="213686afc3803be7caa09348765467fe" category="sidebar">도움을 받을 수 있는 곳</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">이전 버전</block>
   <block id="e6fd42fa4cb186f873c3977bc12f2291" category="sidebar">NetApp HCI 1.8 문서</block>
+  <block id="cd388508451a8326f25b9d7c5d9faa35" category="paragraph">을 참조하십시오<block ref="45dfeaa43e9f1dd00a21977e432c35a4" category="inline-link-rx"></block>.</block>
+  <block id="b2fc1a5e41c41b67c5bace9db877a759" category="list-text"><block ref="b2fc1a5e41c41b67c5bace9db877a759" category="inline-link-rx"></block></block>
+  <block id="f4474b9e29a9baacdc9fa61fae379682" category="paragraph"><block ref="1d3de344b485dd9645e08283cd164260" category="inline-link-macro-rx"></block>에 대한 정보를 참조하십시오.</block>
+  <block id="7cf2e19a356ede2034d8f64c67d696db" category="list-text">이 절차를 시작하기 전에 NetApp 지원팀에 연락하여 교체 부품을 받아야 합니다. 교체 부품 설치 과정에 지원팀이 참여할 것입니다. 아직 연락하지 않으셨다면 지금 연락하십시오<block ref="40d68d5ad5b72cd7b0aeb54dca582b44" category="inline-link-rx"></block>.</block>
+  <block id="d2976374b903151107a40ab7af908d9e" category="list-text">자세한 내용 및 기타 지원되는 구성은 <block ref="f8d4acc3f9aaa36dce166227706d4559" category="inline-link-rx"></block> 및 <block ref="a72ae021af8843b5883c31a3cf48fdbb" category="inline-link-rx"></block>을 참조하십시오.</block>
+  <block id="d0a969cb5b779e9623c2681ca5acf913" category="list-text"><block ref="d0a969cb5b779e9623c2681ca5acf913" category="inline-link-rx"></block></block>
+  <block id="9dab290e89213456d980870059befb04" category="list-text"><block ref="9dab290e89213456d980870059befb04" category="inline-link-macro-rx"></block></block>
+  <block id="54a25b9525fa344cfd032b23a0a55785" category="section-title">[[first-step]]스토리지 노드를 이동합니다.</block>
+  <block id="4bc6740a60deefa0285a0c720b548842" category="paragraph">단계별 지침을 참조하세요 <block ref="ec97764f469808b2dc22de3d7da48064" category="inline-xref-macro-rx"></block>.</block>
+  <block id="83e38c1e0a56daef5954e61f93fa7a9e" category="list-text"><block ref="83e38c1e0a56daef5954e61f93fa7a9e" category="inline-link-rx"></block></block>
+  <block id="bc46b1ab85f9c7954751a790c2bb6484" category="list-text">버전이 일치하지 않으면 운영체제를 업그레이드해야 합니다. 자세한 내용은 <block ref="7f4c0735abc8ca21424ba9a35e46f582" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="6710010f48c45db9480d46a9237ca0d7" category="paragraph">교체 스위치를 구성하는 단계를 수행하십시오. 자세한 내용은 <block ref="47d07e4817f2cf0a0b60826cd7739948" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
+  <block id="7077dbcc40e302fb098c9302c0c6269c" category="list-text">기본 시간 서버를 추가하려면 각 서버마다 새 줄을 추가하십시오. 기본 시간 서버는 <block ref="0c2d9dcf26ca39b44a5e8852cef3f0e3" category="inline-link-macro-rx"></block>에서 사용할 스토리지 클러스터에서 사용하는 NTP 서버와 동일해야 합니다.</block>
+  <block id="976d818f45b3fe57b988f6fb568892d9" category="admonition">시간 동기화 구성을 완료한 후에는 NTP를 편집하지 마십시오. 관리 노드에서 <block ref="cffa1335b86456e7f03dd817732877bf" category="inline-link-macro-rx"></block>을(를) 실행할 때 NTP에 영향을 미칩니다.</block>
+  <block id="0aeacc7be58cf29fd697c7be15f8be8a" category="list-text">*--storage_mvip (-sm) [MVIP 주소]*: Element 소프트웨어가 실행되는 스토리지 클러스터의 관리 가상 IP 주소(MVIP)입니다. <block ref="8118d1db72d661fee875698000297a70" category="inline-link-macro-rx"></block> 중에 사용한 것과 동일한 스토리지 클러스터로 관리 노드를 구성하십시오.</block>
+  <block id="306dce65244454f104c560984a933a89" category="admonition">시간 동기화 구성을 완료한 후에는 NTP를 편집하지 마십시오. 관리 노드에서 <block ref="d4cc54860504c9dd35fa60f279389412" category="inline-xref-macro-rx"></block>을 실행할 때 NTP에 영향을 미칩니다.</block>
+  <block id="d6352877dcd2cf0801fbfb4ea843c259" category="list-text">[[step-6]] 클러스터에 호스팅된 영구 볼륨에 연결하고 이전 관리 노드 구성 데이터를 사용하여 서비스를 시작하도록 관리 노드 재배포 명령을 구성하고 실행합니다.</block>
+  <block id="370b6a48ac72103f3329504653be50fe" category="list-text"><block ref="370b6a48ac72103f3329504653be50fe" category="inline-link-macro-rx"></block></block>
 </blocks>

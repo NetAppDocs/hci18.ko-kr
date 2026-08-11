@@ -40,6 +40,7 @@ NetApp 하이브리드 클라우드 제어를 사용하는 업그레이드는 �
 
 
 
+[[sysupgradeseqsystem-upgrade-sequence]]
 == [[sys_upgrade_seq]] 시스템 업그레이드 순서
 
 .단계

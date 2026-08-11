@@ -26,6 +26,7 @@ NOTE: 새로운 NetApp 하이브리드 클라우드 제어 세션을 처음 시�
 
 
 
+[[access-the-netapp-hcc-dashboard]]
 == NetApp HCC 대시보드에 액세스합니다
 
 . 웹 브라우저에서 관리 노드의 IP 주소를 엽니다. 예를 들면 다음과 같습니다.
@@ -46,6 +47,7 @@ TIP: 설치에 따라 이러한 창이 일부 또는 모두 표시될 수 있습
 
 
 
+[[monitor-storage-resources]]
 == 스토리지 리소스 모니터링
 
 스토리지 * 창을 사용하여 전체 스토리지 환경을 확인하십시오. 스토리지 클러스터 수, 스토리지 노드 수 및 총 볼륨을 모니터링할 수 있습니다.
@@ -62,6 +64,7 @@ TIP: 최신 스토리지 클러스터 데이터를 보려면 Storage Clusters �
 
 
 
+[[monitor-compute-resources]]
 == 컴퓨팅 리소스를 모니터링합니다
 
 Compute * 창을 사용하여 전체 NetApp H-series 컴퓨팅 환경을 확인하십시오. 컴퓨팅 클러스터 수와 총 컴퓨팅 노드 수를 모니터링할 수 있습니다.
@@ -76,6 +79,7 @@ NOTE: NetApp 하이브리드 클라우드 제어에서 컴퓨팅 노드를 관�
 
 
 
+[[monitor-storage-capacity]]
 == 스토리지 용량을 모니터링합니다
 
 환경의 스토리지 용량을 모니터링하는 것이 중요합니다. Storage Capacity 창을 사용하면 압축, 중복제거 및 씬 프로비저닝 기능을 활성화 또는 활성화하지 않고 스토리지 용량 효율성 이점을 결정할 수 있습니다.
@@ -120,6 +124,7 @@ NOTE: 총 효율성은 (maxUsedSpace * 효율성 계수)/2와 같습니다. 여�
 
 
 
+[[monitor-storage-performance]]
 == 스토리지 성능을 모니터링합니다
 
 스토리지 성능 창을 사용하면 리소스의 유용한 성능을 초과하지 않고도 클러스터에서 얻을 수 있는 IOPS 또는 처리량을 확인할 수 있습니다. 스토리지 성능은 지연 시간이 문제가 되기 전에 최대 사용률을 얻을 수 있는 지점입니다.
@@ -155,6 +160,7 @@ https://docs.netapp.com/us-en/vcp/vcp_task_reports_volume_performance.html["vCen
 
 
 
+[[monitor-compute-utilization]]
 == 컴퓨팅 활용률 모니터링
 
 스토리지 리소스의 IOPS 및 처리량을 모니터링할 뿐만 아니라 컴퓨팅 자산의 CPU 및 메모리 사용량도 확인할 수 있습니다. 노드가 제공할 수 있는 총 IOPS는 노드의 물리적 특성(예: CPU 수, CPU 속도 및 RAM 용량)을 기반으로 합니다.

@@ -35,6 +35,7 @@ NetApp 하이브리드 클라우드 제어 및 REST API를 사용하여 FQDN 웹
 
 
 
+[[configure-fqdn-web-ui-access-using-netapp-hybrid-cloud-control]]
 == NetApp 하이브리드 클라우드 제어를 사용하여 FQDN 웹 UI 액세스를 구성합니다
 
 .단계
@@ -61,6 +62,7 @@ NOTE: FQDN 세트가 있는 연결된 스토리지 클러스터만 * 정규화�
 
 
 
+[[configure-fqdn-web-ui-access-using-the-rest-api]]
 == REST API를 사용하여 FQDN 웹 UI 액세스를 구성합니다
 
 .단계
@@ -122,6 +124,7 @@ https://<ManagementNodeIP>/mnode/2/
 
 
 
+[[remove-fqdn-web-ui-access-using-netapp-hybrid-cloud-control]]
 == NetApp 하이브리드 클라우드 제어를 사용하여 FQDN 웹 UI 액세스를 제거합니다
 
 다음 절차를 사용하여 관리 노드 및 스토리지 클러스터에 대한 FQDN 웹 액세스를 제거할 수 있습니다.
@@ -137,6 +140,7 @@ https://<ManagementNodeIP>/mnode/2/
 
 
 
+[[remove-fqdn-web-ui-access-using-the-rest-api]]
 == REST API를 사용하여 FQDN 웹 UI 액세스를 제거합니다
 
 .단계
@@ -187,6 +191,7 @@ https://<ManagementNodeIP>/mnode/2/
 
 
 
+[[troubleshooting]]
 == 문제 해결
 
 FQDN이 잘못 구성된 경우 관리 노드, 스토리지 클러스터 또는 둘 모두를 액세스하는 데 문제가 있을 수 있습니다. 다음 정보를 사용하여 문제를 해결하십시오.
@@ -219,6 +224,5 @@ FQDN이 잘못 구성된 경우 관리 노드, 스토리지 클러스터 또는 
 == 자세한 내용을 확인하십시오
 
 * http://docs.netapp.com/sfe-122/topic/com.netapp.doc.sfe-api/GUID-93942724-1C4C-4F3D-B352-89498F7722ED.html["SolidFire 및 요소 문서 센터의 CreateClusterInterfacePreference API 정보입니다"^]
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
 * http://docs.netapp.com/sfe-122/index.jsp["SolidFire 및 Element 소프트웨어 설명서 센터"^]
 

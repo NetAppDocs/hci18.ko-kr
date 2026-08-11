@@ -18,6 +18,7 @@ NetApp HCI 하드웨어를 랙에 장착하고 NetApp HCI를 설치하기 전에
 
 
 
+[[install-active-iq-config-advisor]]
 == Active IQ Config Advisor를 설치합니다
 
 NetApp HCI 네트워크에 액세스할 수 있는 PC에 Active IQ Config Advisor를 다운로드하고 설치합니다.
@@ -43,6 +44,7 @@ https://mysupport.netapp.com/site/tools/tool-eula/5ddb829ebd393e00015179b2["NetA
 
 
 
+[[use-active-iq-config-advisor]]
 == Active IQ Config Advisor를 사용합니다
 
 Active IQ Config Advisor는 브라우저 창에서 실행되고 네트워크 및 환경에 대한 정보를 수집하며 NetApp HCI 배포를 방해할 수 있는 네트워크 또는 구성 문제를 해결하는 데 사용할 수 있는 보고서를 생성합니다.

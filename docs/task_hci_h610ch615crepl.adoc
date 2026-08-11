@@ -34,6 +34,7 @@ VMware vSphere Web Client의 알람은 호스트에 장애가 발생할 경우 �
 
 
 
+[[prepare-to-replace-the-node]]
 == 노드 교체를 준비합니다
 
 노드를 교체하기 전에 노드에서 호스팅되는 VM(가상 머신)을 사용 가능한 호스트로 마이그레이션하고 클러스터에서 노드를 제거해야 합니다. 일련 번호 및 네트워킹 정보와 같은 노드에 대한 세부 정보를 확인해야 합니다.
@@ -63,6 +64,7 @@ image::h610c serial number.gif[에는 VMware vSphere Web Client에서 장애가 
 
 
 
+[[replace-the-node]]
 == 노드를 교체합니다
 
 클러스터에서 장애가 발생한 노드를 제거한 후 장애가 발생한 섀시를 제거하고 교체 섀시를 설치할 수 있습니다.
@@ -96,6 +98,7 @@ CAUTION: 섀시 후면의 공기 환풍구가 케이블 또는 레이블에 의�
 
 
 
+[[add-the-node-to-the-cluster]]
 == 클러스터에 노드를 추가합니다
 
 새 컴퓨팅 노드를 사용하도록 NetApp HCI를 구성해야 합니다.
@@ -183,6 +186,7 @@ TIP: 일부 컴퓨팅 노드의 경우 vCenter 버전이 지원하는 최고 수
 
 
 
+[[install-the-gpu-drivers]]
 == GPU 드라이버를 설치합니다
 
 H610C 노드와 같이 NVIDIA 그래픽 처리 장치(GPU)를 사용하는 컴퓨팅 노드에는 VMware ESXi에 설치된 NVIDIA 소프트웨어 드라이버가 있어야 증가된 처리 능력을 활용할 수 있습니다. GPU 드라이버를 설치하려면 컴퓨팅 노드에 GPU 카드가 있어야 합니다.
@@ -263,8 +267,8 @@ SCP$HOME/nvidia/ESX6.7/nvidia**.vib root@<esxi_ip_addr>:/.
 
 
 
+[[find-more-information]]
 == 자세한 내용을 확인하십시오
 
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
 * http://docs.netapp.com/sfe-122/index.jsp["SolidFire 및 Element 소프트웨어 설명서 센터"^]
 

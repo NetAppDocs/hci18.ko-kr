@@ -51,6 +51,7 @@ https://<ManagementNodeIP>
 
 
 
+[[use-netapp-hybrid-cloud-control-ui-to-upgrade-a-rancher-deployment]]
 == NetApp 하이브리드 클라우드 제어 UI를 사용하여 목장 구축 업그레이드
 
 NetApp 하이브리드 클라우드 제어 UI를 사용하여 Rancher 구현에서 다음 구성 요소를 업그레이드할 수 있습니다.
@@ -92,6 +93,7 @@ NOTE: 노드 OS의 경우 보안 패치에 대한 무인 업그레이드가 매�
 
 
 
+[[use-netapp-hybrid-cloud-control-api-to-upgrade-a-rancher-deployment]]
 == NetApp 하이브리드 클라우드 제어 API를 사용하여 목장 구축 업그레이드
 
 API를 사용하여 Rancher 구축 시 다음 구성 요소를 업그레이드할 수 있습니다.
@@ -115,6 +117,7 @@ NOTE: 노드 OS의 경우 보안 패치에 대한 무인 업그레이드가 매�
 
 
 
+[[upgrade-rancher-server]]
 === Rancher 서버를 업그레이드합니다
 
 .API 명령
@@ -184,6 +187,7 @@ https://<ManagementNodeIP>/k8sdeployer/api/
 
 
 
+[[upgrade-rke]]
 === RKE를 업그레이드합니다
 
 .API 명령
@@ -253,6 +257,7 @@ https://<ManagementNodeIP>/k8sdeployer/api/
 
 
 
+[[apply-node-os-security-updates]]
 === 노드 OS 보안 업데이트를 적용합니다
 
 .API 명령

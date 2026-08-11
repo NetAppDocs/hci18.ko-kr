@@ -18,6 +18,7 @@ NetApp HCI는 다양한 네트워크 케이블 연결 및 VLAN 구성을 활용�
 
 
 
+[[configuration-option-b-six-cables-for-compute-nodes]]
 == 구성 옵션 B: 컴퓨팅 노드용 케이블 6개
 
 보조 네트워크 구성 옵션으로서 H410C 컴퓨팅 노드는 6개의 네트워크 케이블을 사용하여 모든 NetApp HCI 네트워크에 연결할 수 있도록 지원합니다. 이 구성을 위해서는 스토리지, vMotion 및 모든 가상 머신 네트워크에서 VLAN 태깅을 사용해야 합니다. 이 구성을 vSphere 표준 스위치 또는 vSphere 분산 스위치(VMware vSphere Enterprise Plus 라이센스가 필요함)와 함께 사용할 수 있습니다.
@@ -31,6 +32,7 @@ image::HCI_ISI_compute_6cable.png[NetApp H410C 컴퓨팅 노드 네트워크 포
 
 
 
+[[vlan-configuration]]
 === VLAN 구성
 
 4개의 케이블을 사용하여 6개의 케이블 및 스토리지 노드를 사용하여 컴퓨팅 노드를 구축하는 것이 가장 좋습니다. 따라서 노드가 사용 중인 모든 스위치 포트에서 필요한 네트워크 세그먼트를 구성해야 합니다. 예를 들면 다음과 같습니다.
@@ -56,6 +58,7 @@ image::hci_networking_config_scenario_2.png[HCI 네트워킹 구성 옵션 B 이
 
 
 
+[[example-switch-commands]]
 === 스위치 명령의 예
 
 다음 예제 명령을 사용하여 NetApp HCI 노드에 사용되는 모든 스위치 포트를 구성할 수 있습니다. 이러한 명령은 Cisco 구성을 기반으로 하지만 Mellanox 스위치에 적용하려면 약간의 변경만 필요합니다. 이 구성을 구현하는 데 필요한 특정 명령은 스위치 설명서를 참조하십시오. 인터페이스 이름, 설명 및 VLAN을 사용자 환경의 값으로 바꿉니다.

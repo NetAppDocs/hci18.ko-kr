@@ -24,12 +24,14 @@ NetApp HCI 컴퓨팅 노드에 대해 지원되는 펌웨어 및 ESXi 드라이�
 
 
 
+[[h615c]]
 == H615C
 
 * 모델 번호(제품군 부분): * H615C
 
 
 
+[[component-firmware-managed-by-a-compute-firmware-bundle]]
 === Compute Firmware Bundle에서 관리하는 구성 요소 펌웨어입니다
 
 11.x 기간 동안 Element 소프트웨어는 펌웨어를 릴리스하는 유일한 방법이었습니다. Element 12.0부터 * Compute Firmware Bundle * 의 개념이 도입되었으며, 이제 독립적으로 출시된 Compute Firmware Bundle을 통해 펌웨어 업데이트가 가능해졌습니다.
@@ -81,6 +83,7 @@ NOTE: 다음 표의 대시(*- *)는 특정 릴리스 차량에서 특정 하드�
 |===
 
 
+[[component-firmware-not-managed-by-a-compute-firmware-bundle]]
 === 컴퓨팅 펌웨어 번들에서 관리되지 않는 구성 요소 펌웨어입니다
 
 다음 펌웨어는 컴퓨팅 펌웨어 번들에서 관리되지 않습니다.
@@ -100,12 +103,14 @@ NOTE: 다음 표의 대시(*- *)는 특정 릴리스 차량에서 특정 하드�
 |===
 
 
+[[h610c]]
 == H610C
 
 * 모델 번호(제품군 부분): * H610C
 
 
 
+[[component-firmware-managed-by-a-compute-firmware-bundle]]
 === Compute Firmware Bundle에서 관리하는 구성 요소 펌웨어입니다
 
 NetApp HCI 1.0-NetApp HCI 1.7에서 NetApp HCI는 펌웨어를 릴리스하는 유일한 방법이었습니다. NetApp HCI 1.8부터 * 컴퓨팅 펌웨어 번들 * 의 개념이 도입되었으며, 이제 독립적으로 출시된 컴퓨팅 펌웨어 번들을 통해 펌웨어 업데이트가 가능합니다.
@@ -166,6 +171,7 @@ NOTE: 다음 표의 대시(*- *)는 특정 릴리스 차량에서 특정 하드�
 |===
 
 
+[[component-firmware-not-managed-by-a-compute-firmware-bundle]]
 === 컴퓨팅 펌웨어 번들에서 관리되지 않는 구성 요소 펌웨어입니다
 
 다음 펌웨어는 컴퓨팅 펌웨어 번들에서 관리되지 않습니다.
@@ -188,12 +194,14 @@ NOTE: 다음 표의 대시(*- *)는 특정 릴리스 차량에서 특정 하드�
 |===
 
 
+[[h410c]]
 == H410C
 
 * 모델 번호(제품군 부분): * H410C
 
 
 
+[[component-firmware-managed-by-a-compute-firmware-bundle]]
 === Compute Firmware Bundle에서 관리하는 구성 요소 펌웨어입니다
 
 NetApp HCI 1.0-NetApp HCI 1.7에서 NetApp HCI는 펌웨어를 릴리스하는 유일한 방법이었습니다. NetApp HCI 1.8부터 * 컴퓨팅 펌웨어 번들 * 의 개념이 도입되었으며, 이제 독립적으로 출시된 컴퓨팅 펌웨어 번들을 통해 펌웨어 업데이트가 가능합니다.
@@ -254,6 +262,7 @@ NOTE: 다음 표의 대시(*- *)는 특정 릴리스 차량에서 특정 하드�
 |===
 
 
+[[component-firmware-not-managed-by-a-compute-firmware-bundle]]
 === 컴퓨팅 펌웨어 번들에서 관리되지 않는 구성 요소 펌웨어입니다
 
 다음 펌웨어는 컴퓨팅 펌웨어 번들에서 관리되지 않습니다.
@@ -282,12 +291,14 @@ NOTE: 다음 표의 대시(*- *)는 특정 릴리스 차량에서 특정 하드�
 |===
 
 
+[[h300eh500eh700e]]
 == H300E/H500E/H700E
 
 * 모델 번호(제품군 부분): * H300E/H500E/H700E
 
 
 
+[[component-firmware-managed-by-a-compute-firmware-bundle]]
 === Compute Firmware Bundle에서 관리하는 구성 요소 펌웨어입니다
 
 NetApp HCI 1.0-NetApp HCI 1.7에서 NetApp HCI는 펌웨어를 릴리스하는 유일한 방법이었습니다. NetApp HCI 1.8부터 * 컴퓨팅 펌웨어 번들 * 의 개념이 도입되었으며, 이제 독립적으로 출시된 컴퓨팅 펌웨어 번들을 통해 펌웨어 업데이트가 가능합니다.
@@ -348,6 +359,7 @@ NOTE: 다음 표의 대시(*- *)는 특정 릴리스 차량에서 특정 하드�
 |===
 
 
+[[component-firmware-not-managed-by-a-compute-firmware-bundle]]
 === 컴퓨팅 펌웨어 번들에서 관리되지 않는 구성 요소 펌웨어입니다
 
 다음 펌웨어는 컴퓨팅 펌웨어 번들에서 관리되지 않습니다.

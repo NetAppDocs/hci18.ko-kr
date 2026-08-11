@@ -48,6 +48,7 @@ NetApp 하이브리드 클라우드 제어 UI 또는 관리 노드 REST API를 �
 
 
 
+[[update-management-services-using-hybrid-cloud-control]]
 == 하이브리드 클라우드 제어를 사용하여 관리 서비스를 업데이트합니다
 
 NetApp 하이브리드 클라우드 제어를 사용하여 NetApp 관리 서비스를 업데이트할 수 있습니다.
@@ -104,6 +105,7 @@ NOTE: 설치가 인터넷에 액세스할 수 없는 경우 현재 소프트웨�
 
 
 
+[[update-management-services-using-the-management-node-api]]
 == 관리 노드 API를 사용하여 관리 서비스를 업데이트합니다
 
 사용자는 NetApp 하이브리드 클라우드 제어에서 관리 서비스 업데이트를 수행하는 것이 이상적입니다. 하지만 REST API를 사용하여 관리 서비스에 대한 서비스 번들 업데이트를 관리 노드에 수동으로 업로드, 추출 및 배포할 수 있습니다. 관리 노드의 REST API UI에서 각 명령을 실행할 수 있습니다.

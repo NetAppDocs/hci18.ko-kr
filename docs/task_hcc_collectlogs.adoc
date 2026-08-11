@@ -25,6 +25,7 @@ NetApp HCI 또는 SolidFire All-Flash 스토리지 설치에 문제가 있을 �
 
 
 
+[[use-netapp-hybrid-cloud-control-to-collect-logs]]
 == NetApp 하이브리드 클라우드 제어를 사용하여 로그를 수집하십시오
 
 NetApp 하이브리드 클라우드 제어 대시보드에서 로그 수집 영역에 액세스할 수 있습니다.
@@ -66,6 +67,7 @@ NOTE: 수집한 로그에 따라 진행률 표시줄이 몇 분 동안 특정 �
 
 
 
+[[use-the-rest-api-to-collect-logs]]
 == REST API를 사용하여 로그를 수집합니다
 
 REST API를 사용하여 NetApp HCI 또는 Element 로그를 수집할 수 있습니다.

@@ -21,6 +21,7 @@ NetApp 하이브리드 클라우드 제어 인터페이스를 사용하여 시�
 
 
 
+[[discover-whats-new]]
 == 새로운 기능 알아보기
 
 * link:rn_whatsnew.html["NetApp HCI의 새로운 기능"]
@@ -31,6 +32,7 @@ NetApp 하이브리드 클라우드 제어 인터페이스를 사용하여 시�
 
 
 
+[[get-started-with-netapp-hci]]
 == NetApp HCI를 시작하십시오
 
 * link:task_hci_getstarted.html["NetApp HCI 설치 및 구축 개요"]
@@ -41,5 +43,4 @@ NetApp 하이브리드 클라우드 제어 인터페이스를 사용하여 시�
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
-* https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
 

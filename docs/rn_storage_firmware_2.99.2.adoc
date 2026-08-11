@@ -18,12 +18,14 @@ Element 12.0 및 관리 서비스 버전 2.14부터 NetApp 하이브리드 클�
 
 
 
+[[whats-new]]
 == 새로운 기능
 
 스토리지 펌웨어 번들 버전 2.99.2에는 보안 취약점 수정을 비롯한 다양한 버그 수정 및 새로운 기능이 포함되어 있습니다. 의 지침에 따라 스토리지 펌웨어를 업그레이드할 수 link:task_hcc_upgrade_storage_firmware.html["스토리지 펌웨어를 업그레이드합니다"]있습니다.
 
 
 
+[[updated-firmware-components]]
 === 펌웨어 구성 요소가 업데이트되었습니다
 
 이 펌웨어 패키지에는 업데이트된 버전이 굵은 글꼴로 표시된 하드웨어 구성 요소에 대한 다음 펌웨어 버전이 포함되어 있습니다.
@@ -99,6 +101,7 @@ Element 12.0 및 관리 서비스 버전 2.14부터 NetApp 하이브리드 클�
 |===
 
 
+[[changes-in-storage-firmware-components]]
 == 스토리지 펌웨어 구성 요소의 변경 사항
 
 |===
@@ -114,12 +117,14 @@ Element 12.0 및 관리 서비스 버전 2.14부터 NetApp 하이브리드 클�
 |===
 
 
+[[resolved-and-known-issues]]
 == 해결된 알려진 문제입니다
 
 해결된 문제에 대한 자세한 내용과 새로운 문제에 대한 자세한 내용은 를 https://mysupport.netapp.com/site/bugs-online/product["버그 온라인 도구"^] 참조하십시오.
 
 
 
+[[accessing-the-bugs-online-tool]]
 === 버그 온라인 도구에 액세스
 
 . 로  https://mysupport.netapp.com/site/bugs-online/product["버그 온라인 도구"^] 이동하여 드롭다운 목록에서 * Element Software * 를 선택합니다.
@@ -138,12 +143,14 @@ image::bol_list_bugs_found.png[스토리지 펌웨어 번들 릴리스 정보]
 
 
 
+[[resolved-security-vulnerabilities]]
 == 보안 취약성 해결
 
 다음은 이 릴리스에서 해결된 보안 취약점입니다.
 
 
 
+[[h610s-bmc-3-91-07]]
 === H610S BMC 3.91.07
 
 * CVE-2019-20636

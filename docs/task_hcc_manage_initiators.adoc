@@ -25,6 +25,7 @@ keywords: netapp, hci, initiator, storage, element, access group
 
 
 
+[[create-an-initiator]]
 == 이니시에이터를 생성합니다
 
 iSCSI 또는 파이버 채널 이니시에이터를 생성하고 선택적으로 별칭을 할당할 수 있습니다.
@@ -76,6 +77,7 @@ iqn.2010-01.com.solidfire:c2r9.fc0.2100000e1e09bb8b
 
 
 
+[[add-initiators-to-a-volume-access-group]]
 == 볼륨 액세스 그룹에 이니시에이터를 추가합니다
 
 볼륨 액세스 그룹에 이니시에이터를 추가할 수 있습니다. 볼륨 액세스 그룹에 이니시에이터를 추가하면 이니시에이터가 해당 볼륨 액세스 그룹의 모든 볼륨에 액세스할 수 있도록 설정합니다.
@@ -93,6 +95,7 @@ iqn.2010-01.com.solidfire:c2r9.fc0.2100000e1e09bb8b
 
 
 
+[[change-an-initiator-alias]]
 == 이니시에이터 별칭을 변경합니다
 
 기존 이니시에이터의 별칭을 변경하거나 별칭이 없는 경우 추가할 수 있습니다.
@@ -110,6 +113,7 @@ iqn.2010-01.com.solidfire:c2r9.fc0.2100000e1e09bb8b
 
 
 
+[[delete-initiators]]
 == 이니시에이터를 삭제합니다
 
 하나 이상의 이니시에이터를 삭제할 수 있습니다. 이니시에이터를 삭제하면 연결된 볼륨 액세스 그룹에서 이니시에이터가 제거됩니다. 초기자를 사용하는 모든 연결은 연결이 재설정될 때까지 유효합니다.

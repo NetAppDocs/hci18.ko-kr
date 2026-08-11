@@ -18,6 +18,7 @@ NetApp HCI에 Rancher를 구축한 후 Rancher 서버 클러스터 URL 및 상�
 
 
 
+[[identify-rancher-server-cluster-urls-and-status]]
 == Rancher 서버 클러스터 URL 및 상태를 확인합니다
 
 Rancher 서버 클러스터 URL을 식별하고 서버 상태를 확인할 수 있습니다.
